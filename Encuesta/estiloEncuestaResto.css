@@ -1,0 +1,75 @@
+
+html{
+
+	margin:auto;
+	text-align: center;
+	background-color: beige;
+
+}
+
+.opcion{
+
+	padding: 5px 0;
+}
+
+.barra{
+
+	background-color: orange;
+	border-radius: 10px;
+	padding: 10px;
+
+
+}
+
+.seleccionado{
+
+	background-color: blue;
+	border-radius: 10px;
+	color: yellow;
+	padding: 10px;
+}
+
+.encuesta{
+	width: fit-content;
+	background-color: green;
+	color: orange;	
+	margin-top: 1%;
+	padding: 1%;
+	border-radius: 50%;
+	box-shadow: inset 0 0 12px 4px rgba(0, 0, 0, 0.8);
+}
+
+.boton {
+	width: 100px;
+	height: 25px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	font-weight: 500;
+	color: black;
+	background-color: #fff;
+	border: none;
+	border-radius: 45px;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	outline: none;
+	margin-top: 1%;
+}
+
+
+
+.boton:hover {
+	background-color: green;
+	box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+	color: blue;
+	transform: translateY(-7px);
+}
+
+.margen{
+
+	margin: 20px;
+
+
+}

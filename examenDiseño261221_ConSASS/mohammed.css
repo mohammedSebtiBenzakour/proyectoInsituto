@@ -1,0 +1,365 @@
+*{
+	padding: 0;
+	margin: 0;
+
+}
+body{
+
+	width: 80%;
+	margin: 0 auto;
+
+}
+
+header{
+	display: flex;
+	background-color: gray;
+	margin: 2%;
+	margin-bottom: 1%;
+
+}
+
+nav{
+	display: flex;
+	justify-content: flex-end;
+	background-color: lightgray;
+	margin: 2%;
+	margin-top: 0%;
+}
+
+.enlaceNav{
+
+	padding: 1%;
+	border: 2px solid black;
+	border-top: 0;
+	border-left: 0;
+	border-bottom: 0;
+	padding-left: 3%;
+
+}
+
+a:hover{
+
+	background-color: dimgray ;
+
+
+}
+nav a:last-child{
+
+	padding-right: 5%;
+	border-right: 0;
+}
+
+
+.logo{
+
+	width: 30%;
+	height: auto;
+	object-fit: cover;
+	border-radius: 50% ;
+	padding: 3%;
+}
+
+h1{
+
+	padding-top: 20%;
+	font-family: 'Roboto', sans-serif;
+
+}
+section{
+
+	display: flex;
+	flex-direction: column;
+}
+
+.divarticle{
+
+	display: flex;
+	border: 1px solid black;
+	margin: 2%;
+	margin-top: 0.1%;
+
+}
+
+.article1{
+
+	display: flex;
+	flex-direction: column;
+	padding: 1%;
+	border: 1px solid black;
+	margin: 2%;
+
+}
+
+h2{
+
+	text-align: center;
+	background-color: greenyellow;
+
+
+}
+
+.divp{
+
+	padding-top: 5%;
+
+}
+
+.imagenes{
+	display: flex;
+	border: 2px solid black;
+	margin: 2%;
+	margin-top: 0;
+	flex-wrap: wrap; 
+	padding: 1%;
+	background-color: brown;
+
+
+}
+
+.images{
+	width: 90%;
+	height: auto;
+	object-fit: cover;
+	
+	padding: 3%;
+
+}
+
+.pfoto{
+	visibility: hidden;
+	position: relative;
+	top: -50%;
+	left: 12%;
+	color: yellow;
+	font-size: 110%;
+
+}
+
+.div_imagen:hover .pfoto{
+	visibility: visible;
+
+}
+
+footer{
+
+	display: flex;
+	margin: 2%;
+	margin-top: 0;
+	background-color: bisque;
+	justify-content: space-between ;
+	border: 2px solid black;
+	padding: 1%;
+
+
+}
+
+.iconos {
+	display: flex;
+	display: none;
+	padding: 1%;
+
+}
+
+
+#navlist {
+
+
+	position: relative;
+	background-color: red;
+	border: 1px;
+	left: -18%;
+
+
+}
+
+#navlist li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	top: 0;
+}
+
+#navlist li, #navlist a {
+	height: 24px;
+	width: 24px;
+	display: block;
+}
+
+
+#home {
+	left: 0px;
+	width: 46px;
+	background: url('twiterfinal.png') 23px 0;
+	background-size: cover;
+
+
+}
+
+#prev {
+	left: 63px;
+	width: 43px;
+	background: url('twiterfinal.png') -47px 0;
+	background-size: cover;
+}
+
+#next {
+	left: 129px;
+	width: 43px;
+	background: url('imgfacebookFINAL.jpeg') -98px 0;
+	background-size: cover;
+}
+
+@media only screen and (max-width: 500px) {
+	body {
+		background-color: lightblue;
+	}
+
+
+	.imagenes{
+		display: flex;
+		flex-direction: column;
+		border: 2px solid black;
+		margin: 2%;
+		margin-top: 0;
+		background-color: brown;
+		justify-content: center;
+		padding-top :0px;
+		padding-bottom: 100px;
+		padding-left: 5%;
+
+
+
+	}
+	.divarticle{
+
+		display: flex;
+		flex-direction: column;
+
+	}
+
+	.images{
+		width: 60%;
+		height: auto;
+		object-fit: cover;
+		margin: 4%;
+		padding: 14%;
+
+	}
+	.pfoto{
+		visibility: hidden;
+
+		top: -170px;
+		left: 25%;
+		color: yellow;
+		font-size: 100%;
+		background-color: greenyellow;
+		width: fit-content;
+
+
+
+	}
+	.div_imagen:hover .pfoto{
+		display: flex;
+		visibility: visible;
+		flex-direction: column;
+
+
+	}
+	.div_grande{
+
+		height: 150%;
+
+	}
+	.iconos {
+		display: flex;
+		padding: 1%;
+		justify-content: center;
+		align-items: center;
+
+
+	}
+	#icono2{
+
+		display: none;
+
+
+	}
+	.menuGrande {
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-color: lightblue;
+
+	}
+	.enlaceNav{
+		border: 0;
+	}
+
+
+	a:last-child{
+		position: relative;
+		left: 2%;
+	}
+
+	#navlist li, #navlist a {
+
+		display: flex;
+		height: 18px;
+		width: 18px;
+
+	}
+	#home {
+		left: 0px;
+		width: 18px;
+		background: url('twiterfinal.png') 36px 0;
+		background-size: cover;
+
+	}
+
+	#prev {
+		left: 63px;
+		width: 18px;
+		background: url('twiterfinal.png') -55px 0;
+		background-size: cover;
+		position: relative;
+		left: 25px;
+	}
+
+	#next {
+		left: 129px;
+		width: 18px;
+		background: url('imgfacebookFINAL.jpeg') -91px 0;
+		background-size: cover;
+		position: relative;
+		left: 50px;
+	}
+	header{
+		display: flex;
+		background-color: gray;
+		margin: 2%;
+		margin-bottom: 1%;
+		background-color: greenyellow;
+		justify-content: center;
+		align-items: center;
+		
+	}
+	h1{
+
+		font-size: 1.5rem;
+		justify-content: center;
+		width: 800px;
+		text-align: center;
+		padding: 0;
+		position: relative;
+		
+
+	}
+	.logo{
+		display: none;
+	}
+
+
+}
+

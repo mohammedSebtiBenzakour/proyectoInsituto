@@ -1,0 +1,96 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15-dic-2021, 13:30:45
+    Author     : daw44
+*/
+body {
+    font-family: sans-serif;
+    background-color: antiquewhite;
+    color: darkblue;
+}
+
+input[type='number'] {
+    text-align: right;
+    background-color: beige;
+    color: darkcyan;
+    border-style: solid;
+    font-size: larger;
+}
+/*
+ Quitamos los botones de los input number
+*/
+input[type="number"]
+{
+    -webkit-appearance: textfield !important;
+    margin: 0;
+    -moz-appearance:textfield !important;
+    appearance: textfield;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: brown;
+    color: white;
+}
+
+/*
+table, td, th {
+    border: 1px solid violet;
+    border-collapse: collapse;
+}
+*/
+
+table.matriz {
+    border-left: 5px solid cadetblue;
+    border-right: 5px solid cadetblue;
+    border-radius: 5px;
+}
+
+td, th {
+    padding: 5px;
+}
+
+td.der {
+    text-align: right;
+}
+
+div.error {
+    color: darkred;
+    background-color: hotpink;
+    font-size: larger;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+div.ok {
+    color: darkgreen;
+    background-color: lightgreen;
+    font-size: larger;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+div.cabecera {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: cadetblue;
+}
+
+div.cerraSesion {
+    float: right;
+}
+
+div.left {
+    float: left;
+}
+
+

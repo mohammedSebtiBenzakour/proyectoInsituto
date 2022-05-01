@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link rel="stylesheet" href="calculadora.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body >
+ 
+
+  <div class="calculadora" id="calculadora">
+    
+    
+      <input type="text" name="resultado" id="valor_numero" class="resultado" maxlength="20" value="0" readonly />
+   
+
+    <div class="vaciar">
+      <button class="ce" id="ce" value="">CE</button>
+      <button id="dividir" value="/">/</button>
+      <input type="button" id="apagar" class="apagon" value="Off"></input>
+    </div>
+    <div class="num789">
+      <button id="7" value="7">7</button>
+      <button id="8" value="8">8</button>
+      <button id="9" value="9">9</button>
+      <button id="multiplicar" value="*">X</button>
+    </div>
+    <div class="num456">
+      <button id="4" value="4">4</button>
+      <button id="5" value="5">5</button>
+      <button id="6" value="6">6</button>
+      <button id="restar" value="-">-</button>
+    </div>
+    <div class="num123">
+      <button id="1" value="1" >1</button>
+      <button id="2" value="2">2</button>
+      <button id="3" value="3">3</button>
+      <button id="sumar" value="+">+</button>
+    </div>
+
+    <div class="num0">
+      <button id="0" class="cero" value="0">0</button>
+      <button type="button" value="." id="," class="boton">.</button>
+      <button id="igual" value="=" class="iguale">=</button>
+
+    </div>
+    <div class="todo">
+      <label for="mod" id="checkboxLabel" class="mas">MAS</label>
+      <input type="checkbox" id="mod" />
+      
+      <div class="modo">
+        <button id="raizCuadrada" class="raiz" value="√">√</button>
+        <button id="potencia" class="pot" value="EXP">exp</button>
+        <button id="%" class="porcentaje" value="por" >%</button>
+        <button id="modulo" class="module" value="%">MOD</button>
+      </div>
+
+
+
+    </div>
+  </div>
+
+  <script type="text/javascript" src="cacluladoraBis.js" ></script>
+  
+</body>
+
+</html>

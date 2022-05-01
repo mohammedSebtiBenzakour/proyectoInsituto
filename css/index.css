@@ -1,0 +1,272 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pacific', cursive;
+}
+
+body{
+ margin:0%;
+ padding: 0%;
+
+  /*  font-family: 'Lobster', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Corinthia', cursive;*/
+    background-color: beige;
+    /*font-family: 'Pacific', cursive;*/
+
+}
+
+.losh1{
+     font-family: 'Pacific', cursive;
+     font-size: 4em;
+     color: yellow;
+     text-shadow: 0px 0px 15px rgba(147, 23, 53, 1);
+}
+
+
+input[type=submit]{
+    font-family: 'Lobster', cursive;
+}
+
+.slide-contenedor{
+    background-color: grey;
+}
+
+option[value="male"]   { 
+
+    background-image: url('img/espana.png');   
+}
+
+.otra{
+    background-color: orange;
+}
+
+
+
+.fotos:hover img {
+    -webkit-transform:scale(0.8);
+    transform:scale(0.8);
+
+}
+.foto {
+    box-shadow: inset 0 0 12px 4px rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    width: 150px ;
+    height: 150px;
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.logo{
+
+    border-radius: 45%;
+}
+//no esta utilizado por el bg de bootstrap
+.navbar{
+    background-color: lightgrey;
+
+}
+
+.mensaje{
+
+  background-color: orange;
+  text-align: center;
+  font-size: 50%;
+
+}
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  font-size:.5em;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-content: center;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  border-radius: 20%;
+  margin-top: 5px;
+  width:50%;
+  height: 25px;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 30px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+
+
+}
+@keyframes example {
+  0%   {background-color: orange;}
+  25%  {background-color: lightsalmon;}
+  50%  {background-color: lightgrey;}
+  100% {background-color: lightblue;}
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+.portafolio{
+    background: #f0f3f5;
+    padding: 60px 10px;
+}
+
+.portafolio .portafolio-textos{
+    text-align: center;
+    margin-bottom: 60px;
+    color:#2d3950;
+    font-size: 20px;
+}
+
+.portafolio .portafolio-textos p{
+    color: #909090;
+    font-size: 15px;
+    margin:20px 0 0 0;
+}
+
+.portafolio .galeria{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.portafolio .galeria .galeria_fotos{
+    width: 30%;
+    margin-bottom:20px;
+}
+
+.portafolio .galeria .galeria_fotos img{
+    width: 100%;
+    height:210px;
+    border-radius: 5px;
+}
+.portafolio .galeria .galeria_fotos img:hover{
+    opacity:.6;
+    cursor: pointer;
+}
+.cabecera{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+.buscar{
+   display: flex;
+   justify-content: left;
+}
+
+.inputBuscar{
+    border: none;
+    margin: 10px;
+    width: 50%;
+    height: 25px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.botonBuscar{
+ margin: 10px;
+
+}
+
+.botonBuscar {
+  width: 100px;
+  height: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.fila{
+    
+}
+
+.botonBuscar:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.idiomas{
+   width: 30%;
+   height: 25px;
+   font-family: 'Roboto', sans-serif;
+   font-size: 11px;
+   text-transform: uppercase;
+   letter-spacing: 2.5px;
+   font-weight: 500;
+   color: #000;
+   background-color: #fff;
+   border: none;
+   border-radius: 45px;
+   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+   transition: all 0.3s ease 0s;
+   cursor: pointer;
+   outline: none;
+   justify-content: right;
+
+}
+
+.noticias{
+    color: Black;
+    border-bottom: 2px solid black;
+}
+
+.disabled {
+    pointer-events:none; /*This makes it not clickable*/
+    opacity:0.4;         /*This grays it out to look disabled*/
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .losh1{
+     font-family: 'Pacific', cursive;
+     font-size: 1em;
+}
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .losh1{
+     font-family: 'Pacific', cursive;
+     font-size: 2em;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .losh1{
+     font-family: 'Pacific', cursive;
+     font-size: 1.5em;
+}
+
+}

@@ -1,0 +1,579 @@
+@mixin borde($anchura, $estilo, $color) {
+   border: {
+       color: $color;
+       width: $anchura;
+       style: $estilo;
+   }
+}
+
+@mixin logo($anchura, $altura, $objectFit, $borderRadius, $elPadding) {
+   width: $anchura;
+   height: $altura;
+   object-fit: $objectFit;
+   border-radius: $borderRadius ;
+   padding: $elPadding;
+
+}
+
+@mixin navA($paddingRight, $borderRight) {
+  padding-right: $paddingRight;
+  border-right: $borderRight;
+}
+
+@mixin fontH1($familia, $anchura, $estilo, $peso) {
+   font: {
+       family: $familia;
+       size: $anchura;
+       style: $estilo;
+       weight: $peso ;
+   }
+}
+
+@mixin margenGeneral($mt, $mb, $ml, $mr) {
+    margin:
+
+    {
+        top: $mt;
+        bottom: $mb;
+        left: $ml;
+        right: $mr;
+
+    } 
+}
+
+@mixin margenTop($mt) {
+    margin-top: $mt;
+}
+
+@mixin elPadding($pt, $pb, $pl, $pr) {
+    padding:
+
+    {
+        top: $pt;
+        bottom: $pb;
+        left: $pl;
+        right: $pr;
+
+    } 
+}
+
+@mixin bColorGeneral($color) {
+    background-color: $color;
+}
+
+@mixin paddingTop($pt) {
+    padding-top: $pt;
+}
+
+@mixin elWidth($w) {
+    width: $w;
+}
+
+@mixin elHeight($h) {
+    height: $h;
+}
+
+@mixin elVisibility($v) {
+    visibility: $v;
+}
+
+
+@mixin laPosicion($p) {
+    position: $p;
+}
+
+@mixin laPosicionTop($t) {
+    top: $p;
+}
+
+@mixin laPosicionLeft($l) {
+    left: $p;
+}
+
+@mixin elColor($c) {
+    color: $c;
+}
+
+@mixin fontSize($fz) {
+    font-size: $fz;
+}
+
+@mixin images($anchura, $altura, $objectFit,  $elPadding) {
+   width: $anchura;
+   height: $altura;
+   object-fit: $objectFit;
+   padding: $elPadding;
+
+}
+@mixin background($imgpath,$position:0 0,$repeat: no-repeat) {
+    background: {
+        image: url($imgpath);
+        position: $position;
+        repeat: $repeat;
+    }
+}
+
+// se puede utilizar la version abreviada
+@mixin backgroundShorthand($imgpath,$position:0 0,$repeat: no-repeat) {
+    background: transparent url(#{$imgpath}) $repeat $position;
+}
+
+//mixin para media query
+
+@mixin small {
+  @media only screen and (max-width: 500px) {
+    @content;
+    }
+}
+
+@mixin medium {
+  @media only screen and (max-width: 900px) and (min-width: 500px) {
+    @content;
+    }
+}
+
+@mixin large {
+  @media only screen and (min-width: 1440px) {
+    @content;
+    }
+}
+
+@mixin tablet {
+  @media only screen and (max-width: 768px) {
+    @content;
+    }
+}
+
+@mixin desktop {
+  @media only screen and (min-width: 992px) {
+    @content;
+    }
+}
+
+@mixin large {
+  @media only screen and (min-width: 1200px) {
+    @content;
+    }
+}
+
+
+$ancho : 80%;
+$margenTB: 0;
+$margenLR: auto;
+
+$displayFlex : flex;
+
+$bColorHeader: gray;
+
+$margenGeneral : 2%;
+
+$margenBottom : 1%;
+
+$justifyContent : flex-end;
+
+$bColorNav: lightgray;
+
+$margenTop : 0%;
+
+$paddingNav : 1%;
+
+$borderNav : 0;
+
+$paddingLNav : 3%;
+
+$bCaHover : dimgray;
+
+$fontFamiliaGoogle : 'Roboto';
+
+$fontFamiliaGoogleSiNo : sans-serif;
+
+$paddingTopH1 : 20%;
+
+$flexDirection: column;
+
+$textAlign : center;
+
+$flexWrap : wrap;
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+
+    width: $ancho;
+    margin:
+
+    {
+        top: $margenTB;
+        bottom: $margenTB;
+        left: $margenLR;
+        right: $margenLR;
+
+    }
+
+    @include small() {
+        background-color: lightblue;
+
+    } 
+
+    .div_grande{
+
+       @include small() {
+
+        height: 150%;
+    }
+}
+
+}
+
+header{
+    display: $displayFlex;
+    background-color: $bColorHeader;
+    margin: $margenGeneral;
+    margin-bottom: $margenBottom;
+
+    @include small() {
+        display: flex;
+        background-color: gray;
+        margin: 2%;
+        margin-bottom: 1%;
+        background-color: greenyellow;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo{
+
+        @include logo(30%, auto, cover, 50%, 3%);
+
+        @include small() {
+            display: none;
+        }
+    }
+
+    h1{
+
+        padding-top: $paddingTopH1;
+        font-family: $fontFamiliaGoogle, $fontFamiliaGoogleSiNo;
+
+        @include small() {
+            font-size: 1.5rem;
+            justify-content: center;
+            width: 800px;
+            text-align: center;
+            padding: 0;
+            position: relative;
+        }
+
+    }
+
+}
+
+nav{
+    display: $displayFlex;
+    justify-content: $justifyContent;
+    background-color: $bColorNav;
+    margin: $margenGeneral;
+    margin-top: $margenTop;
+        @include small() {
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: lightblue;
+            display: none;
+        }
+
+
+        .enlaceNav{
+
+            padding: $paddingNav;
+            @include borde(2px, solid, black);
+            border:
+            {
+                top: $borderNav;
+                bottom: $borderNav;
+                left: $borderNav;
+            } 
+            padding-left: $paddingLNav;
+
+            @include small() {
+                border: 0;
+            }
+        }
+
+        a:hover{
+            background-color: $bCaHover;
+        }
+
+        nav a:last-child{
+
+           @include navA(5%, 0);
+
+           @include small() {
+            position: relative;
+            left: 2%;
+        }
+    }
+
+}
+
+section{
+
+    display: $displayFlex;
+    flex-direction: $flexDirection;
+
+    .divarticle{
+
+        @include borde(1px, solid, black);
+        display: $displayFlex;
+        @include margenGeneral(2%, 2%, 2%, 2%);
+        @include  margenTop(0.1%);
+
+        @include small() {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .article1{
+
+            display: $displayFlex;
+            flex-direction: $flexDirection;
+            @include elPadding(1%, 1%, 1%, 1%);
+            @include borde(1px, solid, black);
+            @include margenGeneral(2%, 2%, 2%, 2%);
+
+            h2{
+
+                @include  bColorGeneral(greenyellow);
+                text-align: $textAlign;
+
+                .divp{
+
+                    @include  paddingTop(5%);
+                }
+
+            }
+
+        }
+
+    }
+
+        .imagenes{
+            display: $displayFlex;
+            @include borde(2px, solid, black);
+            @include margenGeneral(2%, 2%, 2%, 2%);
+            @include  margenTop(0%);
+            flex-wrap: $flexWrap; 
+            @include elPadding(1%, 1%, 1%, 1%);
+            @include  bColorGeneral(brown);
+
+            @include small() {
+                display: flex;
+                flex-direction: column;
+                border: 2px solid black;
+                margin: 2%;
+                margin-top: 0;
+                background-color: brown;
+                justify-content: center;
+                padding-top :0px;
+                padding-bottom: 100px;
+                padding-left: 5%;
+
+            } 
+
+
+            .div_imagen{
+
+                .images{
+                    @include images(90%, auto, cover,  3%);
+
+                    @include small() {
+                        width: 60%;
+                        height: auto;
+                        object-fit: cover;
+                        margin: 4%;
+                        padding: 14%;
+                    }
+
+                }
+                .pfoto{
+                    visibility: hidden;
+                    position: relative;
+                    top: -50%;
+                    left: 12%;
+                    color: yellow;
+                    font-size: 110%;
+
+                    @include small() {
+                        visibility: hidden;
+                        top: -170px;
+                        left: 25%;
+                        color: yellow;
+                        font-size: 100%;
+                        background-color: greenyellow;
+                        width: fit-content;
+                    }
+                }
+            }
+            .div_imagen:hover .pfoto{
+             visibility: visible;
+
+             @include small() {
+                display: flex;
+                visibility: visible;
+                flex-direction: column;
+            }
+
+        }
+
+    }
+
+}
+
+.iconos {
+    display: $displayFlex;
+    display: none;
+    @include elPadding(1%, 1%, 1%, 1%);
+        @include small() {
+            display: flex;
+            padding: 1%;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        #icono2{
+                @include small() {
+                 display: none;
+             }
+        }
+}
+
+
+footer{
+
+    display: $displayFlex;
+    @include margenGeneral(2%, 2%, 2%, 2%);
+    margin-top: 0;
+    justify-content: space-between ;
+    @include borde(2px, solid, black);
+    @include  bColorGeneral(bisque);
+    @include elPadding(1%, 1%, 1%, 1%);
+
+    .creado{
+        font-size: 100%;
+        @include small() {
+            font-size: 80%;
+        }
+        @include medium() {
+            font-size: 80%;
+
+        }
+    }
+
+    #navlist{
+        position: relative;
+        
+        padding-bottom: 23px;
+        border: 1px;
+        left: -18%;
+        padding-top: 2px;
+
+        @include small() {
+            display: flex;
+            height: 18px;
+            width: 18px;
+            padding-bottom: 0;
+        }
+        @include medium() {
+            display: flex;
+            height: 18px;
+            width: 18px;
+            padding-bottom: 0;
+            position: relative;
+            left: -28%;
+        }
+
+    }
+
+    #navlist li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        position: absolute;
+        top: 0;
+
+    }
+
+    #navlist li, #navlist a {
+        height: 24px;
+        width: 24px;
+        display: block;
+        
+
+        @include small() {
+            display: flex;
+            height: 18px;
+            width: 18px;
+
+        }
+    }
+
+        #home {
+            left: 0px;
+            width: 46px;
+           // background: url('../twiterfinal.png') 23px 0;
+           @include background('../twiterfinal.png' , -25px);
+           background-size: cover;
+
+           @include small() {
+            left: 0px;
+            width: 18px;
+            background: url('../twiterfinal.png') 36px 0;
+            background-size: cover;
+        }
+    }
+
+        #prev {
+            left: 63px;
+            width: 43px;
+            //background: url('../twiterfinal.png') -47px 0;
+            @include background('../twiterfinal.png' , -1px);
+            background-size: cover;
+
+                    @include small() {
+                        left: 63px;
+                        width: 18px;
+                        background: url('../twiterfinal.png') -55px 0;
+                        background-size: cover;
+                        position: relative;
+                        left: 25px;
+                    }
+        }
+
+        #next {
+            left: 129px;
+            width: 43px;
+       // background: url('../imgfacebookFINAL.jpeg') -98px 0;
+       @include background('../imgfacebookFINAL.jpeg' , -25px);
+       background-size: cover;
+
+               @include small() {
+                left: 129px;
+                width: 18px;
+                @include background('../imgfacebookFINAL.jpeg' , -22px);
+                background-size: cover;
+                position: relative;
+                left: 50px;
+            }
+        }
+}
+
+
+

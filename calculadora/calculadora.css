@@ -1,0 +1,457 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* body {
+  display: flex;
+  flex-direction: column;
+  margin: 0%;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+
+nav {
+  background-color: aqua;
+  flex-grow: 1;
+  position: relative;
+}
+
+article:last-child {
+  background-color: green;
+  flex-grow: 6;
+}
+
+footer {
+  background-color: blue;
+}
+
+header {
+  background-color: brown;
+}
+
+section,
+header,
+footer {
+  flex-grow: 1;
+}
+section {
+  display: flex;
+}
+
+section {
+  flex-grow: 4;
+} */
+
+body {
+  margin-left: 23%;
+  margin-top: 2%;
+}
+
+.calculadora {
+  display: flex;
+  flex-direction: column;
+  margin: 0%;
+  height: 70vh;
+  width: 20vw;
+  text-align: center;
+  gap: 8%;
+  padding: 1%;
+  padding-bottom: 5%;
+  padding-top: 3%;
+  background-color: rgb(207, 166, 113);
+  box-shadow: 2px 2px 25px green;
+  border: 1px dashed gray;
+  border-radius: 10%;
+  justify-content: center;
+  margin-top: 6vw;
+  margin-left: 12vw;
+}
+
+
+
+
+
+
+
+button {
+  width: 100%;
+  height: 150%;
+  margin: 0.5%;
+  border: 1px solid gray;
+  border-radius: 50%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  cursor: grab;
+  box-shadow: 3px 3px 10px blue;
+}
+
+.mas {
+  position: relative;
+  background-color: rgb(96, 107, 36);
+  border: 2px dashed #dfd;
+  border-radius: 20%;
+  width: 50%;
+  text-align: center;
+  color: aqua;
+  left: 25%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  cursor: grab;
+  padding: 3%;
+  box-shadow: 2px 2px 25px green;
+}
+
+.todo {
+  height: 100%;
+}
+
+button:hover {
+  background-color: blueviolet;
+  color: bisque;
+}
+
+/* .botones {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 8%;
+  background-color: antiquewhite;
+} */
+
+.resultado {
+  background-color: greenyellow;
+  height: 100%;
+  text-align: right;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  border: 0px solid gray;
+  border-radius: 50%;
+  padding: 4%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+}
+
+#ce, #potencia, #dividir, #multiplicar, #restar, #sumar, .iguale, .raiz, .porcentaje, .module {
+  color: red;
+}
+
+body.nojQuery #ce:hover, #potencia:hover, #dividir:hover, #multiplicar:hover, #restar:hover, #sumar:hover, .igual:hover {
+  background-color: aquamarine;
+}
+
+.apagon {
+  background-color: red;
+  color: antiquewhite;
+  width: 100%;
+  height: 150%;
+}
+
+.apagon:hover {
+  background-color: skyblue;
+  color: antiquewhite;
+}
+
+.numero {
+  background-color: aqua;
+}
+
+.todo {
+  display: flex;
+  flex-direction: column;
+}
+
+/* #stuffToShow {
+  display:none;
+}
+
+#checkbox {
+  opacity:0.01;
+}
+
+#checkbox:checked + #stuffToShow {
+  display:block;
+} */
+
+.modo {
+  /*  background-color: bisque; */
+  display: flex;
+  justify-content: space-around;
+}
+
+.modo {
+  display: none;
+}
+
+#mod {
+  opacity: 0.01;
+}
+.mas{
+  position: relative;
+  top: 3.5vw ;
+
+
+}
+
+#mod:checked+.modo {
+  display: flex;
+  position: relative;
+  bottom: 4vw;
+}
+
+
+/* .modo{
+  visibility: hidden;
+ 
+}
+
+
+ .todo:checked .modo{
+
+  visibility: visible;
+} */
+
+.final {
+  display: flex;
+  flex-direction: column;
+}
+
+.vaciar {
+  /*  background-color: cornflowerblue; */
+  display: flex;
+  justify-content: space-around;
+}
+
+.num789 {
+  /*   background-color: aquamarine; */
+  display: flex;
+  justify-content: space-around;
+}
+
+.num456 {
+  /*  background-color: aquamarine; */
+  display: flex;
+  justify-content: space-around;
+}
+
+.num123 {
+  /*  background-color: aquamarine; */
+  display: flex;
+  justify-content: space-around;
+}
+
+.num0 {
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: space-around;
+}
+
+.cero {
+  flex-grow: 0;
+}
+
+@media screen and (max-width: 1000px) {
+
+  body {
+    background-color: yellowgreen;
+  }
+
+  .mas{
+
+    position: relative;
+    top: 4vw ;
+  
+  
+  }
+
+  #mod:checked+.modo {
+    display: flex;
+    position: relative;
+    bottom: 5vw;
+  }
+
+}
+
+
+@media screen and (max-width: 800px) {
+  body {
+    background-color: aqua;
+  }
+  .calculadora {
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    height: 70vh;
+    width: 30vw;
+    text-align: center;
+    gap: 8%;
+    padding: 1%;
+    padding-bottom: 15%;
+    padding-top: 7%;
+    background-color: rgb(207, 166, 113);
+    box-shadow: 2px 2px 25px green;
+    border: 1px dashed gray;
+    border-radius: 10%;
+    justify-content: center;
+    margin-top: 10vw;
+    margin-left: 8vw;
+  }
+  .resultado {
+    background-color: greenyellow;
+    height: 100%;
+    text-align: right;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    border: 0px solid gray;
+    border-radius: 50%;
+    padding: 4%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+  }
+  button {
+    width: 20%;
+    height: 150%;
+    margin: 0.5%;
+    border: 1px solid gray;
+    border-radius: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: grab;
+    box-shadow: -3px 3px blue, -2px 2px blue, -1px 1px blue;
+  }
+  .num0 {
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-around;
+  }
+  .module {
+    font-size: 60%;
+  }
+  .pot {
+    font-size: 60%;
+  }
+  .apagon {
+    background-color: red;
+    color: antiquewhite;
+    width: 40%;
+    height: 150%;
+  }
+
+  .mas{
+
+    top: 9vw ;
+  
+  
+  }
+
+  #mod:checked+.modo {
+    display: flex;
+    position: relative;
+    bottom: 6vw;
+  }
+  
+}
+
+@media screen and (max-width: 500px) {
+
+  body {
+    background-color: cornflowerblue
+  }
+
+  .mas{
+
+    position: relative;
+    top: 8vw ;
+  
+  
+  }
+
+  #mod:checked+.modo {
+    display: flex;
+    position: relative;
+    bottom: 9vw;
+  }
+
+}
+
+
+@media screen and (max-width: 300px) {
+  body {
+    background-color: rgb(154, 168, 168);
+  }
+  .calculadora {
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    height: 70vh;
+    width: 60vw;
+    text-align: center;
+    gap: 8%;
+    padding: 1%;
+    padding-bottom: 5%;
+    padding-top: 4%;
+    background-color: rgb(207, 166, 113);
+    box-shadow: 2px 2px 25px green;
+    border: 1px dashed gray;
+    border-radius: 10%;
+    box-sizing: content-box;
+    justify-content: center;
+    margin-top: 10vw;
+    margin-left: 2vw;
+  }
+  .resultado {
+    background-color: greenyellow;
+    height: 30%;
+    text-align: right;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    border: 0px solid gray;
+    border-radius: 50%;
+    padding: 4%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+  }
+  button {
+    width: 20%;
+    height: 150%;
+    margin: 0.5%;
+    border: 1px solid gray;
+    border-radius: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: grab;
+    box-shadow: -3px 3px blue, -2px 2px blue, -1px 1px blue;
+    font-size: small;
+  }
+  .num0 {
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-around;
+  }
+  .module {
+    font-size: 60%;
+  }
+  .pot {
+    font-size: 60%;
+  }
+
+  .mas{
+
+    position: relative;
+    top: 13vw ;
+  
+  
+  }
+
+  #mod:checked+.modo {
+    display: flex;
+    position: relative;
+    bottom: 21vw;
+  }
+
+
+
+
+
+}

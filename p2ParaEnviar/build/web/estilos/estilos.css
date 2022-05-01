@@ -1,0 +1,47 @@
+/*
+Estas navidades queremos felicitar a nuestros amigos de forma original, y para ello
+desarrollaremos un juego sencillo con tecnología JSP: Descubrir parejas navideñas. 
+*/
+/* 
+    Created on : 05-dic-2021, 18:15:26
+    Author     : daw2
+*/
+/**
+ *
+ * @author daw2
+ * @author Mohammed Sebti Benzakour
+ * @since v1.0
+ * 
+ */
+/**
+ * @version v1.12-12-2021
+ */
+
+/* Cambio el color de fondo de todas las pagina
+y centrando todo el contenido y cambiando el tipo de letra
+*/
+
+body{
+
+    background-color: orange;
+    max-width: 50%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Centrando el texto de los h1 */
+
+h1{
+
+    text-align: center;
+}
+
+
+/* Dando estilo a las imagenes */
+img{
+    background-color: red;
+    border: solid 2px #999999;
+    border-radius: 15px 0px 15px 0px;
+    box-shadow: 2px 2px 5px #999999;
+    background: #DAE6B1;
+}

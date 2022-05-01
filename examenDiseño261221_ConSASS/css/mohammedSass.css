@@ -1,0 +1,310 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  width: 80%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto; }
+  @media only screen and (max-width: 500px) {
+    body {
+      background-color: lightblue; } }
+  @media only screen and (max-width: 500px) {
+    body .div_grande {
+      height: 150%; } }
+
+header {
+  display: flex;
+  background-color: gray;
+  margin: 2%;
+  margin-bottom: 1%; }
+  @media only screen and (max-width: 500px) {
+    header {
+      display: flex;
+      background-color: gray;
+      margin: 2%;
+      margin-bottom: 1%;
+      background-color: greenyellow;
+      justify-content: center;
+      align-items: center; } }
+  header .logo {
+    width: 30%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 3%; }
+    @media only screen and (max-width: 500px) {
+      header .logo {
+        display: none; } }
+  header h1 {
+    padding-top: 20%;
+    font-family: "Roboto", sans-serif; }
+    @media only screen and (max-width: 500px) {
+      header h1 {
+        font-size: 1.5rem;
+        justify-content: center;
+        width: 800px;
+        text-align: center;
+        padding: 0;
+        position: relative; } }
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  background-color: lightgray;
+  margin: 2%;
+  margin-top: 0%; }
+  @media only screen and (max-width: 500px) {
+    nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: lightblue;
+      display: none; } }
+  nav .enlaceNav {
+    padding: 1%;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+    padding-left: 3%; }
+    @media only screen and (max-width: 500px) {
+      nav .enlaceNav {
+        border: 0; } }
+  nav a:hover {
+    background-color: dimgray; }
+  nav nav a:last-child {
+    padding-right: 5%;
+    border-right: 0; }
+    @media only screen and (max-width: 500px) {
+      nav nav a:last-child {
+        position: relative;
+        left: 2%; } }
+
+section {
+  display: flex;
+  flex-direction: column; }
+  section .divarticle {
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 0.1%; }
+    @media only screen and (max-width: 500px) {
+      section .divarticle {
+        display: flex;
+        flex-direction: column; } }
+    section .divarticle .article1 {
+      display: flex;
+      flex-direction: column;
+      padding-top: 1%;
+      padding-bottom: 1%;
+      padding-left: 1%;
+      padding-right: 1%;
+      border-color: black;
+      border-width: 1px;
+      border-style: solid;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      margin-left: 2%;
+      margin-right: 2%; }
+      section .divarticle .article1 h2 {
+        background-color: greenyellow;
+        text-align: center; }
+        section .divarticle .article1 h2 .divp {
+          padding-top: 5%; }
+  section .imagenes {
+    display: flex;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 0%;
+    flex-wrap: wrap;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: brown; }
+    @media only screen and (max-width: 500px) {
+      section .imagenes {
+        display: flex;
+        flex-direction: column;
+        border: 2px solid black;
+        margin: 2%;
+        margin-top: 0;
+        background-color: brown;
+        justify-content: center;
+        padding-top: 0px;
+        padding-bottom: 100px;
+        padding-left: 5%; } }
+    section .imagenes .div_imagen .images {
+      width: 90%;
+      height: auto;
+      object-fit: cover;
+      padding: 3%; }
+      @media only screen and (max-width: 500px) {
+        section .imagenes .div_imagen .images {
+          width: 60%;
+          height: auto;
+          object-fit: cover;
+          margin: 4%;
+          padding: 14%; } }
+    section .imagenes .div_imagen .pfoto {
+      visibility: hidden;
+      position: relative;
+      top: -50%;
+      left: 12%;
+      color: yellow;
+      font-size: 110%; }
+      @media only screen and (max-width: 500px) {
+        section .imagenes .div_imagen .pfoto {
+          visibility: hidden;
+          top: -170px;
+          left: 25%;
+          color: yellow;
+          font-size: 100%;
+          background-color: greenyellow;
+          width: fit-content; } }
+    section .imagenes .div_imagen:hover .pfoto {
+      visibility: visible; }
+      @media only screen and (max-width: 500px) {
+        section .imagenes .div_imagen:hover .pfoto {
+          display: flex;
+          visibility: visible;
+          flex-direction: column; } }
+
+.iconos {
+  display: flex;
+  display: none;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%; }
+  @media only screen and (max-width: 500px) {
+    .iconos {
+      display: flex;
+      padding: 1%;
+      justify-content: center;
+      align-items: center; } }
+  @media only screen and (max-width: 500px) {
+    .iconos #icono2 {
+      display: none; } }
+
+footer {
+  display: flex;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 0;
+  justify-content: space-between;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  background-color: bisque;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%; }
+  footer .creado {
+    font-size: 100%; }
+    @media only screen and (max-width: 500px) {
+      footer .creado {
+        font-size: 80%; } }
+    @media only screen and (max-width: 900px) and (min-width: 500px) {
+      footer .creado {
+        font-size: 80%; } }
+  footer #navlist {
+    position: relative;
+    padding-bottom: 23px;
+    border: 1px;
+    left: -18%;
+    padding-top: 2px; }
+    @media only screen and (max-width: 500px) {
+      footer #navlist {
+        display: flex;
+        height: 18px;
+        width: 18px;
+        padding-bottom: 0; } }
+    @media only screen and (max-width: 900px) and (min-width: 500px) {
+      footer #navlist {
+        display: flex;
+        height: 18px;
+        width: 18px;
+        padding-bottom: 0;
+        position: relative;
+        left: -28%; } }
+  footer #navlist li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0; }
+  footer #navlist li, footer #navlist a {
+    height: 24px;
+    width: 24px;
+    display: block; }
+    @media only screen and (max-width: 500px) {
+      footer #navlist li, footer #navlist a {
+        display: flex;
+        height: 18px;
+        width: 18px; } }
+  footer #home {
+    left: 0px;
+    width: 46px;
+    background-image: url("../twiterfinal.png");
+    background-position: -25px;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    @media only screen and (max-width: 500px) {
+      footer #home {
+        left: 0px;
+        width: 18px;
+        background: url("../twiterfinal.png") 36px 0;
+        background-size: cover; } }
+  footer #prev {
+    left: 63px;
+    width: 43px;
+    background-image: url("../twiterfinal.png");
+    background-position: -1px;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    @media only screen and (max-width: 500px) {
+      footer #prev {
+        left: 63px;
+        width: 18px;
+        background: url("../twiterfinal.png") -55px 0;
+        background-size: cover;
+        position: relative;
+        left: 25px; } }
+  footer #next {
+    left: 129px;
+    width: 43px;
+    background-image: url("../imgfacebookFINAL.jpeg");
+    background-position: -25px;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    @media only screen and (max-width: 500px) {
+      footer #next {
+        left: 129px;
+        width: 18px;
+        background-image: url("../imgfacebookFINAL.jpeg");
+        background-position: -22px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        left: 50px; } }
+
+/*# sourceMappingURL=mohammedSass.css.map */

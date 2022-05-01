@@ -1,0 +1,89 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 02-abr-2022, 14:33:37
+    Author     : daw2
+*/
+body {
+    text-align: center;
+    background-color: beige;
+}
+h5{
+    text-align: center;
+    text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+
+}
+
+h5 a{
+    text-decoration: none;
+}
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+}
+
+
+.portafolio{
+
+    padding: 60px 0;
+}
+
+.portafolio .portafolio-textos{
+    text-align: center;
+    margin-bottom: 60px;
+    color:#2d3950;
+    font-size: 20px;
+}
+
+.portafolio .portafolio-textos p{
+    color: #909090;
+    font-size: 15px;
+    margin:20px 0 0 0;
+}
+
+.portafolio .galeria{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.portafolio .galeria .fotos{
+    width: 30%;
+    margin-bottom:20px;
+}
+
+.portafolio .galeria .fotos img{
+    width: 100%;
+    height:210px;
+    border-radius: 5px;
+}
+.portafolio .galeria .fotos img:hover{
+    opacity:.6;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width:760px){
+
+}
+
+@media screen and (max-width:630px){
+
+    .portafolio .galeria .fotos{
+        width:49%;
+    }
+}
+
+@media screen and (max-width: 500px){
+
+}
+
+@media screen and (max-width: 350px){
+
+}

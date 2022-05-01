@@ -1,0 +1,7 @@
+hola
+adios
+grande
+peque
+chico
+solo
+unico
