@@ -33,6 +33,9 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
+                        <a  href="CerrarSesion" class="btn btn-primary">Cerrar Sesión</a>
+                    </div>
+                    <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
                         <fmt:timeZone  value="Europe/Madrid" >
                             <fmt:formatDate type="both" dateStyle="full"  value="${now}"/>
                         </fmt:timeZone>
@@ -79,8 +82,9 @@
                                     } catch (NoResultException e) {
                                         usus = null;
                                     }
-
-                                   // System.out.println("el usuario22222ddddd es : " + dni_usu);
+                                    
+                                    //
+                                    // System.out.println("el usuario22222ddddd es : " + dni_usu);
                                 %>
 
                                 <h3>  Iniciar Session </h3>
@@ -88,13 +92,13 @@
                                 <form class="requires-validation" novalidate method="post" action="Login">
 
                                     <div class="col-md-12">
-                                        <input class="form-control" type="text" name="dni" placeholder="DNI" value="<%= dni_usu%>" required autocomplete="off">
+                                        <input class="form-control" type="text" name="dni" placeholder="DNI" value="<%= dni_usu %>" required autocomplete="off">
                                         <div class="valid-feedback">El Usuario es valido!</div>
                                         <div class="invalid-feedback">El Usuario no puede estar vacio!</div>
                                     </div>
 
                                     <div class="col-md-12">
-                                        <input class="form-control" type="password" name="clave" value="<%= clave_usu%>" placeholder="Contraseña" required>
+                                        <input class="form-control" type="password" name="clave" value="<%= clave_usu %>" placeholder="Contraseña" required>
                                         <div class="valid-feedback">Password field is valid!</div>
                                         <div class="invalid-feedback">Password field cannot be blank!</div>
                                     </div>

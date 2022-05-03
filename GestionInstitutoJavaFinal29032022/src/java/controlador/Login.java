@@ -50,7 +50,7 @@ public class Login extends HttpServlet {
 
             ru = rujc.findRegistrar_usuarios(dni);
 
-            System.out.println("el usuario es : " + ru);
+            System.out.println("el usuario es antes del if : " + ru);
             //Si el usuario existe en la base de datos
             if (ru != null) {
                 if (ru.getClave().equals(clave)) {

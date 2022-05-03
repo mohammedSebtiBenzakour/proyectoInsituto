@@ -1,0 +1,28 @@
+version: '3.3'
+services:
+   ctphp:
+    build: .
+    container_name: ctphp
+    hostname: ctphp
+    restart: always
+    networks:
+      - mysql-net
+    volumes:
+      - ./Proyectophp:/var/www/html
+    ports:
+      - '8090:80'
+    environment:
+      CTINSTITUTO_DB_HOST: db
+      CTINSTITUTO_DB_USER: instituto
+      CTINSTITUTO_DB_PASSWORD: instituto
+      CTINSTITUTO_DB_NAME: instituto
+      
+volumes:
+    ctphp:
+      name: ctphp
+networks:
+  mysql-net:
+    external: true
+    name: mysql-net
+
+  

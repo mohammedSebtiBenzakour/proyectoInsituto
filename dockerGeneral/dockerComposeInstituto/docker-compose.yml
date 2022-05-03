@@ -1,0 +1,25 @@
+version: '3.3'
+services:
+   ctinstituto:
+    image: tomcat:7.0.100-jdk8-openjdk
+    container_name: ctinstituto
+    hostname: ctinstituto
+    restart: always
+    networks:
+      - mysql-net
+    volumes:
+      - ./GestionInstitutoJavaFinal:/usr/local/tomcat/webapps
+    ports:
+      - '8088:8080'
+    environment:
+      CTINSTITUTO_DB_HOST: db
+      
+volumes:
+    ctinstituto:
+      name: ctinstituto
+networks:
+  mysql-net:
+    external: true
+    name: mysql-net
+
+  

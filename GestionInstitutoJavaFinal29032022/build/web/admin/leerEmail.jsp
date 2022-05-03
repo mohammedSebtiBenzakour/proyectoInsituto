@@ -66,7 +66,7 @@
                 try {
                     Session sesion = Session.getDefaultInstance(props, null);
                     Store store = sesion.getStore("imaps");
-                    store.connect("outlook.office365.com", "msb.iescamas@outlook.com", "Msb.93345900");
+                    store.connect("outlook.office365.com", "filip.morris.camas@outlook.es", "Msb.93345900");
                     Folder[] folders = store.getDefaultFolder().list("*");
                     for (Folder folder : folders) {
                         if (folder.getType() == 3) {
