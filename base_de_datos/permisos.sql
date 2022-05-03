@@ -9,6 +9,12 @@ docker network prune
 
 docker volume prune
 
+
+7.  git gc --prune=now --aggressive
+8.  git push --all --force
+
+
+
 docker rm -vf $(docker ps -a -q)
 
 
@@ -26,9 +32,9 @@ docker-compose-javaInstituto
 docker-compose-db
 
 CTINSTITUTO_DB_HOST: db
-  CTINSTITUTO_DB_USER: instituto
-      CTINSTITUTO_DB_PASSWORD: instituto
-      CTINSTITUTO_DB_NAME: instituto
+CTINSTITUTO_DB_USER: instituto
+CTINSTITUTO_DB_PASSWORD: instituto
+CTINSTITUTO_DB_NAME: instituto
 
 
 
