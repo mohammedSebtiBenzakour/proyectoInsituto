@@ -14,11 +14,17 @@ import java.sql.SQLException;
  * @author daw2
  */
 public class Conexion {
-     public static Connection conectarBD() throws SQLException {
+
+    public static Connection conectarBD() throws SQLException {
         String sqlConeccion = "jdbc:mysql://localhost:3306/instituto?serverTimezone=UTC&usessl=false&allowPublicKeyRetrieval=true&enabledTLSProtocols=TLSv1.2";
+        //  String sqlConeccion = "jdbc:mysql://node33449-mohamed.es-1.axarnet.cloud:3306/instituto?serverTimezone=UTC&usessl=false&allowPublicKeyRetrieval=true&enabledTLSProtocols=TLSv1.2";
+
         String usuarioBD = "instituto";
         String passBD = "instituto";
-        
+//        
+//        String usuarioBD = "root";
+//        String passBD = "TKNnsz18811";
+
         DriverManager.registerDriver(new com.mysql.jdbc.Driver());
         return DriverManager.getConnection(sqlConeccion, usuarioBD, passBD);
     }
