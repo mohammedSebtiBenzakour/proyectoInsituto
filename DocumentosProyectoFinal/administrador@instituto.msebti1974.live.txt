@@ -1,0 +1,92 @@
+ssh administrador@instituto.msebti1974.live
+
+scp -r ./dockerGeneral administrador@instituto.msebti1974.live:~/dockerGeneral
+
+docker run -it --rm -p 8888:8080 tomcat:7.0.100-jdk8-openjdk
+
+
+curl -L https://github.com/docker/compose/releases/download/1.28.5/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+chmod +x /usr/local/bin/docker-compose
+
+
+docker rm $(docker ps -aq)
+
+docker rm -f $(docker ps -aq)
+
+instituto.msebti1974.live
+
+sudo apt update
+sudo apt upgrade
+sudo apt install unzip python perl libnet-ssleay-perl openssl libauthen-pam-perl libpam-runtime libio-pty-perl apt-show-versions
+wget https://prdownloads.sourceforge.net/webadmin/webmin_1.983_all.deb 
+sudo dpkg -i webmin_1.983_all.deb
+
+https://instituto.msebti1974.live:10000/sysinfo.cgi?xnavigation=1
+
+sudo apt install apache2
+sudo apt install php
+sudo apt install mysql-server
+sudo apt install proftpd-basic 
+sudo apt install ssh
+
+sudo apt install libapache2-mod-php
+sudo apt install php-mysql
+
+sudo apt install php-curl php-json php-xml php-xmlrpc php-zip
+
+sudo apt install -y tomcat9 tomcat9-admin
+
+sudo apt install -y tomcat9-docs
+
+sudo apt install -y tomcat9-examples
+
+http://instituto.msebti1974.live:8080
+
+http://instituto.msebti1974.live:8080/manager/html
+
+http://instituto.msebti1974.live:8080/GestionInstitutoJavaFinal/login.jsp
+
+http://instituto.msebti1974.live:8080/LoginUsuario/
+
+/var/www/html (php apache)
+
+http://instituto.msebti1974.live
+
+create user 'instituto' identified by 'instituto'
+
+
+grant all privileges on instituto.* to instituto
+
+sudo dpkg -P phpmyadmin
+
+
+sudo rm -f /etc/apache2/conf-available/phpmyadmin.conf
+
+sudo service apache2 restart
+
+sudo systemctl stop mysql.service
+
+mysql_safe --skip-grant-tables --skip-networking &
+
+sudo mkdir /var/run/mysqld
+
+sudo chown mysql: /var/run/mysqld
+
+sudo apt-get remove --purge mysql-server mysql-client mysql-common
+
+sudo apt-get autoclean
+
+sudo apt-get autoremove
+
+sudo rm -rf /var/lib/mysql
+
+sudo ln -s /usr/share/phpmyadmin /var/www/phpmyadmin
+
+sudo apt install libapache2-mod-php phpmyadmin
+
+sudo apt purge mysql-server mysql-client mysql-common mysql-server-core-* mysql-client-core-*
+
+sudo mv /var/lib/mysql /var/lib/mysql_bk
+
+sudo mv /etc/mysql /etc/mysql_bk
+

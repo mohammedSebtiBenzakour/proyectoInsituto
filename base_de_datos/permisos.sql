@@ -20,6 +20,10 @@ docker rm -vf $(docker ps -a -q)
 
 docker rmi -f $(docker images -a -q)
 
+docker rm $(docker ps -aq)
+
+docker rm -f $(docker ps -aq)
+
 docker network create mysql
 
 docker network list
