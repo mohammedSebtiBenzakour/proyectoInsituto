@@ -1,0 +1,25 @@
+version: '3.3'
+services:
+   ctbiblioteca:
+    image: tomcat:7.0.100-jdk8-openjdk
+    container_name: ctbiblioteca
+    hostname: ctbiblioteca
+    restart: always
+   
+    volumes:
+      - ./LoginUsuario:/usr/local/tomcat/webapps
+    ports:
+      - '9089:8080'
+    environment:
+      CTINSTITUTO_DB_HOST: mysql_db
+      CTINSTITUTO_DB_USER: root
+      CTINSTITUTO_DB_PASSWORD: root
+      CTINSTITUTO_DB_NAME: instituto
+      
+volumes:
+    ctbiblioteca:
+     
+networks:
+  mysql-net:
+  
+

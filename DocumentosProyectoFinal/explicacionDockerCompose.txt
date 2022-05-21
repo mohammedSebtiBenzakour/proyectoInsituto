@@ -1,0 +1,160 @@
+•	Despliegue Azure Docker:
+•	Aplicación en PHP:
+•	http://instituto.msebti1974.live:9000
+•	Perfil: administrador
+•	Usuario: a
+•	Contraseña: a
+
+•	Aplicación Biblioteca (JAVA JDBC)
+•	http://instituto.msebti1974.live:9089/LoginUsuario/index.jsp?usu=a&pas=a
+•	
+•	Usuario: msb.caixa@gmail.com	
+•	Contraseña: a
+
+Su phpmyadmin es http://instituto.msebti1974.live:9001 mysql_db root root
+
+
+•	Aplicación Gestión alumnos (JAVA JPA)
+•	http://instituto.msebti1974.live:9082/GestionInstitutoJavaFinal/login.jsp?usu=a&pas=a
+•	Usuario: 1
+•	Contraseña: a
+
+Su phpmyadmin es http://instituto.msebti1974.live:9081 puedes con root root o bien instituto instituto
+
+el docker compose que funciona junto con su dockerfile java phpmyadmin mysql
+
+https://www.youtube.com/watch?v=siPdgVzLZNY
+
+https://devops4solutions.com/deploy-a-tomcat-application-using-docker-compose/
+
+  <property name="javax.persistence.jdbc.url" value="jdbc:mysql://db:3306/instituto?serverTimezone=UTC&amp;usessl=false&amp;allowPublicKeyRetrieval=true&amp;tlsVersion=TLSv1.2"/>
+      <property name="javax.persistence.jdbc.user" value="instituto"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="instituto"/>
+      <property name="javax.persistence.schema-generation.database.action" value="create"/>
+
+la estructura para desplegar en docker
+(JAVA JPA)
+nombre carpeta 
+alumno
+	target
+		GestionInstitutoJavaFinal.war
+	mysql-dump
+		instituto.sql
+	Dockerfile
+		FROM tomcat:7.0.100-jdk8-openjdk
+		LABEL maintainer="mohammed"
+		ADO ./target/GestionInstitutoJavaFinal.war /usr/local/tomcat/webapps/
+		EXPOSE 8080
+		CMD ["catalina.sh", "run"]
+	docker-compose.yml
+
+version: '3.3'
+services:
+   db:
+     image: mysql:5.7
+     volumes:
+       - /opt/test:/var/lib/mysql
+       - ./mysql-dump:/docker-entrypoint-initdb.d
+     environment:
+       MYSQL_ROOT_PASSWORD: root
+       MYSQL_DATABASE: instituto
+       MYSQL_USER: instituto
+       MYSQL_PASSWORD: instituto
+     ports:
+       - 5306:3306
+   phpmyadmin:
+    depends_on:
+      - db
+    image: phpmyadmin/phpmyadmin:4.7
+    ports:
+      - '9081:80'
+    environment:
+      PMA_HOST: db
+      MYSQL_ROOT_PASSWORD: root
+   web:
+    depends_on:
+      - db
+    image: tomcat:7.0.100-jdk8-openjdk
+    volumes:
+      - ./target/GestionInstitutoJavaFinal.war:/usr/local/tomcat/webapps/GestionInstitutoJavaFinal.war
+    ports:
+      - '9082:8080'
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: instituto
+      MYSQL_USER: instituto
+      MYSQL_PASSWORD: instituto
+
+
+para desplegar (JAVA JDBC)
+dentro de una carpeta dockergeneral
+	LoginUsuario
+		LoginUsuario.war
+	docker-compose.yml
+version: '3.3'
+services:
+   ctbiblioteca:
+    image: tomcat:7.0.100-jdk8-openjdk
+    container_name: ctbiblioteca
+    hostname: ctbiblioteca
+    restart: always
+   
+    volumes:
+      - ./LoginUsuario:/usr/local/tomcat/webapps
+    ports:
+      - '9089:8080'
+    environment:
+      CTINSTITUTO_DB_HOST: mysql_db
+      CTINSTITUTO_DB_USER: root
+      CTINSTITUTO_DB_PASSWORD: root
+      CTINSTITUTO_DB_NAME: instituto
+      
+volumes:
+    ctbiblioteca:
+     
+networks:
+  mysql-net:
+
+para desplegar PHP mysql y phpmyadmin
+
+dentro de una carpeta dockergeneral
+se crea la carpeta src al ejecturar el docker-compose.yml
+
+src
+	Poner todo el proyecto php con todas sus carpetas	
+Dockerfile
+	FROM php:7.0-apache
+	WORKDIR /var/www/html
+	RUN apt-get update -y && apt-get install -y libmariadb-dev 
+	RUN docker-php-ext-install mysqli
+docker-compose.yml
+version: '3.3'
+
+
+services:
+    php-env:
+        build: .
+        volumes:
+            - ./src:/var/www/html
+        ports:
+            - 9000:80
+        
+
+    mysql_db:
+        image: mysql:latest
+        command: --default-authentication-plugin=mysql_native_password
+        restart: always
+        environment:
+          MYSQL_ROOT_PASSWORD: root
+      
+
+    phpmyadmin:
+        image: phpmyadmin:latest
+        restart: always
+        ports:
+          - 9001:80
+        environment:
+          - PMA_ARBITRARY=1
+
+  

@@ -20,6 +20,28 @@ docker rm -vf $(docker ps -a -q)
 
 docker rmi -f $(docker images -a -q)
 
+docker network rm `docker network ls -q`
+
+docker inspect -f '{{ .NetworkSettings.IPAddress }}' f9eea6ffd5c2
+
+dig mysql
+
+127.0.0.53
+----------------------------------
+el docker compose que funciona junto con su dockerfile java phpmyadmin mysql
+https://www.youtube.com/watch?v=siPdgVzLZNY
+  <property name="javax.persistence.jdbc.url" value="jdbc:mysql://db:3306/instituto?serverTimezone=UTC&amp;usessl=false&amp;allowPublicKeyRetrieval=true&amp;tlsVersion=TLSv1.2"/>
+      <property name="javax.persistence.jdbc.user" value="instituto"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="instituto"/>
+      <property name="javax.persistence.schema-generation.database.action" value="create"/>
+---------------------------------------------------------------------------
+
+
+
+
+
+
 docker rm $(docker ps -aq)
 
 docker rm -f $(docker ps -aq)
@@ -34,6 +56,33 @@ docker run -d --name mysql --network mysql -e MYSQL_ROOT_PASSWORD="instituto" my
 docker-compose-javaInstituto
 
 docker-compose-db
+
+docker-compose up --build
+
+docker network create mysql-net
+
+
+docker build -t appwith .
+
+docker run -p 9089:8080 --name mibiblio --link mysqldb-container -d appwith 
+
+docker run --name mysqldb-container -p 4306:3306 -e MYSQL_ROOT_PASSWORD=ROOT -d mysql
+
+
+
+
+
+sudo docker-compose pull
+sudo docker-compose build --no-cache
+sudo docker-compose up -d --force-recreate
+
+
+sudo docker logs contenedor
+sudo mkdir /var/www/marketexpert.com
+sudo mkdir /etc/ssl/certs/market_expert_certificate.crt
+
+
+
 
 CTINSTITUTO_DB_HOST: db
 CTINSTITUTO_DB_USER: instituto
