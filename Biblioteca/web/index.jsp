@@ -6,6 +6,7 @@
 
 
 
+<%@page import="pruebas.JavaPHPCompatibleEncryption"%>
 <%@page import="javax.swing.JOptionPane"%>
 <%@page import="md5.UsarMd5"%>
 <%@page import="controlador.Usuario"%>
@@ -94,15 +95,20 @@
         <%
             String usu = request.getParameter("usu");
             String pas = request.getParameter("pas");
-            
-            String[] usuu = null;
-            String[] pass = null;
 
+            JavaPHPCompatibleEncryption jph = new JavaPHPCompatibleEncryption();
+            String jp = JavaPHPCompatibleEncryption.ENCRYPTION_KEY;
+
+            // String[] usuu = null;
+            //  String[] pass = null;
             try {
-                usuu = usu.split("-");
-                pass = pas.split("-");
-                usu = usuu[1];
-                pas = pass[0];
+                //    usuu = usu.split("-");
+                //    pass = pas.split("-");
+                //   usu = usuu[1];
+                //   pas = pass[0];
+
+                usu = jph.decryptFromHex(jp, usu);
+                pas = jph.decryptFromHex(jp, pas);
             } catch (Exception e) {
             }
 

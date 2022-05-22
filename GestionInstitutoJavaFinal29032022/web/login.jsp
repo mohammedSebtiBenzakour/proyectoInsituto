@@ -3,7 +3,7 @@
     Created on : 19-mar-2022, 17:39:00
     Author     : daw2
 --%>
-
+<%@page import="pruebas.JavaPHPCompatibleEncryption"%>
 <%@page import="javax.persistence.NoResultException"%>
 <%@page import="javax.persistence.EntityManager"%>
 <%@page import="javax.persistence.Query"%>
@@ -54,15 +54,21 @@
                                 <%
                                     String usu = request.getParameter("usu");
                                     String pas = request.getParameter("pas");
-
-                                    String[] usuu = null;
-                                    String[] pass = null;
+                                    
+                                    JavaPHPCompatibleEncryption jph = new JavaPHPCompatibleEncryption();
+                                    String jp = JavaPHPCompatibleEncryption.ENCRYPTION_KEY;
+                                    
+                                  //  String[] usuu = null;
+                                 //   String[] pass = null;
 
                                     try {
-                                        usuu = usu.split("-");
-                                        pass = pas.split("-");
-                                        usu = usuu[1];
-                                        pas = pass[0];
+                                     //   usuu = usu.split("-");
+                                     //   pass = pas.split("-");
+                                     //   usu = usuu[1];
+                                     //   pas = pass[0];
+                                        
+                                        usu = jph.decryptFromHex(jp, usu);
+                                        pas = jph.decryptFromHex(jp, pas);
                                     } catch (Exception e) {
                                     }
 

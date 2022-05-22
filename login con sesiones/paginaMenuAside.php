@@ -1,13 +1,20 @@
 <?php 
 
 session_start();
+require("encryptJava.php");
 
 $usuario = $_SESSION['usuario'] ;
 $perfil = $_SESSION['perfil'] ;
 $clave = $_SESSION['clave'];
 
-$_SESSION['usuario'] = "kjgf_fkghy97f4-".$_SESSION['usuario'] ;
-$_SESSION['clave'] = $_SESSION['clave'] . "-kjgf_fkghy97f4" ;
+$encrypted_usuario = JavaPHPCompatibleEncryption::encrypt($key, $iv, $usuario);
+$encrypted_clave = JavaPHPCompatibleEncryption::encrypt($key, $iv, $clave);
+
+// $_SESSION['usuario'] = "kjgf_fkghy97f4-".$_SESSION['usuario'] ;
+// $_SESSION['clave'] = $_SESSION['clave'] . "-kjgf_fkghy97f4" ;
+
+$_SESSION['usuario'] = $encrypted_usuario ;
+$_SESSION['clave'] = $encrypted_clave ;
 
 //echo $clave . "<br>";
 //echo $usuario . "<br>";
