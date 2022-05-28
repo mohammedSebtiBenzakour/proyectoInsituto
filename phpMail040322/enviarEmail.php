@@ -19,11 +19,11 @@
 
 		}
 		label{
-			background-color: orange;
-			border-radius: 25px;
+			background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(100,119,31,1) 6%, rgba(200,212,255,1) 100%);
+			border-radius: 2px;
 			padding: 10px;
 			margin: 2px;
-			box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 0px 5px rgba(113,74,125,0);
+			//box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 0px 5px rgba(113,74,125,0);
 		}
 		button{
 			box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 0px 5px rgba(113,74,125,0);

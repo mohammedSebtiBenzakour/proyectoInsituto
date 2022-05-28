@@ -94,7 +94,7 @@ if (!isset($usuario) || !isset($perfil)) {
 					<div class="col-md-6">
 						<div class="form-group">
 							<label for="form_name">Nombre de la noticia*</label>
-							<input id="form_name" type="text" name="nombre_noticia" class="form-control" placeholder="Introduce la referencia de la oferta * (Se admite acentos)" required="required" data-error="Tienes que rellenar la referencia.">
+							<input id="form_name" type="text" name="nombre_noticia" class="form-control" placeholder="Introduce el titulo de la noticia * (Se admite acentos)" required="required" data-error="Tienes que rellenar el titulo.">
 							<div class="help-block with-errors"></div>
 						</div>
 					</div>
@@ -106,7 +106,7 @@ if (!isset($usuario) || !isset($perfil)) {
 					<div class="col-md-12">
 						<div class="form-group">
 							<label for="form_message">Texto de la noticia *</label>
-							<textarea id="form_message" name="texto_noticia" class="form-control" placeholder="Descripción de la oferta  * (Se admite acentos)" rows="4"  data-error="Tienes que rellenar la descripcion de la oferta."></textarea>
+							<textarea id="form_message" name="texto_noticia" class="form-control" placeholder="Descripción de la noticia  * (Se admite acentos)" rows="4"  data-error="Tienes que rellenar el contenido de la noticia."></textarea>
 							<div class="help-block with-errors"></div>
 						</div>
 					</div>

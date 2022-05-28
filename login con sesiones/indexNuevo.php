@@ -35,6 +35,7 @@ $array = mysqli_fetch_array($query);
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='../css/estilosTextoImagen.css' rel='stylesheet' type='text/css'>
     <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 </head>
 <body>
@@ -189,7 +190,7 @@ $array = mysqli_fetch_array($query);
                 <h1 class="losh1">Instituto M.S.B</h1>
             </div>
             <div class="carousel-caption d-none d-md-block">
-                <p>Hay una fuerza motriz más poderosa que el vapor, la electricidad y la energía atómica: la voluntad. <br>  <abbr title="Hay una fuerza motriz más poderosa que el vapor, la electricidad y la energía atómica: la voluntad.">Albert Einstein </abbr></p>
+                <p class="estilo_texto_imagen">Hay una fuerza motriz más poderosa que el vapor, la electricidad y la energía atómica: la voluntad. <br>  <abbr title="Hay una fuerza motriz más poderosa que el vapor, la electricidad y la energía atómica: la voluntad.">Albert Einstein </abbr></p>
             </div>
         </div>
         <div class="carousel-item">
@@ -198,7 +199,7 @@ $array = mysqli_fetch_array($query);
             <h1 class="losh1">Instituto M.S.B</h1>
         </div>
         <div class="carousel-caption d-none d-md-block">
-            <p class="text-warning">El genio se hace con un 1% de talento, y un 99% de trabajo. <br>  <abbr title="El genio se hace con un 1% de talento, y un 99% de trabajo.">Albert Einstein</abbr>n</p>
+            <p class="text-warning estilo_texto_imagen">El genio se hace con un 1% de talento, y un 99% de trabajo. <br>  <abbr title="El genio se hace con un 1% de talento, y un 99% de trabajo.">Albert Einstein</abbr>n</p>
         </div>
     </div>
     <div class="carousel-item">
@@ -207,7 +208,7 @@ $array = mysqli_fetch_array($query);
         <h1 class="losh1">Instituto M.S.B</h1>
     </div>
     <div class="carousel-caption d-none d-md-block">
-        <p>Nuestra gloria más grande no consiste en no haberse caído nunca, sino en haberse levantado después de cada caída. <br> <abbr title="Nuestra gloria más grande no consiste en no haberse caído nunca, sino en haberse levantado después de cada caída.">Confucio</abbr></p>
+        <p class="estilo_texto_imagen">Nuestra gloria más grande no consiste en no haberse caído nunca, sino en haberse levantado después de cada caída. <br> <abbr title="Nuestra gloria más grande no consiste en no haberse caído nunca, sino en haberse levantado después de cada caída.">Confucio</abbr></p>
     </div>
 </div>
 </div>

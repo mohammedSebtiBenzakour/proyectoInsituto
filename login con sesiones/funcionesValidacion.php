@@ -165,7 +165,7 @@ function validarDescripcion($nombre){
 
 function validarNombreNoticia($nombre){
 
-	if(preg_match ( "/^([A-Za-zÑñ]+[áéíóú]?[A-Za-z]*){3,55}$/" , $nombre )) {
+	if(preg_match ( "/^[a-zA-Z0-9 àâäèéêëîïôœùûüÿçÀÂÄÈÉÊËÎÏÔŒÙÛÜŸÇ[:punct:]]{3,1600}$/" , $nombre )) {
 		echo "ok";
 		return true;
 	} else {
@@ -177,7 +177,7 @@ function validarNombreNoticia($nombre){
 
 function validarTextoNoticia($nombre){
 
-	if(preg_match ( "/^[a-zA-Z0-9 àâäèéêëîïôœùûüÿçÀÂÄÈÉÊËÎÏÔŒÙÛÜŸÇ[:punct:]]{3,600}$/" , $nombre )) {
+	if(preg_match ( "/^[a-zA-Z0-9 àâäèéêëîïôœùûüÿçÀÂÄÈÉÊËÎÏÔŒÙÛÜŸÇ[:punct:]]{3,1600}$/" , $nombre )) {
 		echo "ok";
 		return true;
 	} else {
