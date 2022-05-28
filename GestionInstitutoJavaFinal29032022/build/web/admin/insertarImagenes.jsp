@@ -71,7 +71,7 @@
         </section>
         <section class="container mb-3">
             <label class="container mb-3 w-50 d-flex justify-content-center align-items-center btn btn-warning shadow rounded text-uppercase botonInicio"><a href="hacerFotoPerfil.jsp" id="hacerFoto" class="">Hacer foto de perfil</a></label>
-            <label class="container mb-3 w-50 d-flex justify-content-center align-items-center btn btn-warning shadow rounded text-uppercase botonInicio"><a href="hacerFotoPerfil.jsp" id="hacerFoto" class="">Mandar Documento por email</a></label>
+            <!--label class="container mb-3 w-50 d-flex justify-content-center align-items-center btn btn-warning shadow rounded text-uppercase botonInicio"><a href="hacerFotoPerfil.jsp" id="hacerFoto" class="">Mandar Documento por email</a></label-->
         </section>
 
 
