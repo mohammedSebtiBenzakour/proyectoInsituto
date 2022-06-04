@@ -1,3 +1,4 @@
+<!-- Fichero para consultar el listado de todos los alumnos -->
 <!DOCTYPE html>
 <html>
 <head>

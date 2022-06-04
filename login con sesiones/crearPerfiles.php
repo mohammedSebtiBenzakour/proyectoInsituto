@@ -1,5 +1,7 @@
 <?php 
 
+//Fichero para crear perfiles en el sistema solo por el administrador
+
 session_start();
 
 $usuario = $_SESSION['usuario'] ;

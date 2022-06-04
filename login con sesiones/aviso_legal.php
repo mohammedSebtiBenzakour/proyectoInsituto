@@ -1,4 +1,7 @@
 <?php 
+
+//Fichero que muestra el aviso legal de la aplicacion para el conocimiento del usuario
+
 require_once('conexion.php');
 session_start();
 $usuario = $_SESSION['usuario'] ;

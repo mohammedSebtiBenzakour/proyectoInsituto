@@ -1,5 +1,6 @@
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <?php 
+//Fichero para el procesamiento de la subida de cualquier documento al servidor
 session_start();
 $conn = new PDO('mysql:host=localhost;dbname=instituto','instituto','instituto');
 $msg = '';

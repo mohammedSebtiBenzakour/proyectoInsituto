@@ -1,5 +1,8 @@
 <?php 
 
+//pagina principal despues de identificarse como administrador para la gestion de los
+//profesores, alumnos y personal no docente asi como imprimir todos los listados corespondientes
+
 session_start();
 require("encryptJava.php");
 

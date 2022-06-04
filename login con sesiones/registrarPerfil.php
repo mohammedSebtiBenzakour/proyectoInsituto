@@ -1,5 +1,5 @@
 <?php 
-
+//Fichero para el procesamiento del registro de perfiles
 
 session_start();
 require_once('conexion.php');

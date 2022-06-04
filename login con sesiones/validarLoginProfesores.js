@@ -1,3 +1,4 @@
+// FIchero no se utiliza por el momento
 // Example starter JavaScript for disabling form submissions if there are invalid fields
 (function () {
   'use strict'

@@ -1,3 +1,4 @@
+<!-- Fichero para consultar el listado de todas las ofertas disponibles -->
 <!DOCTYPE html>
 <html>
 <head>

@@ -1,3 +1,4 @@
+<!-- Fichero con formulario para subir cualquier documento al servidor -->
 <!DOCTYPE html>
 <html>
 <head>

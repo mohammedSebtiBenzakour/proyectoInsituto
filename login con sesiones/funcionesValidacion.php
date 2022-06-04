@@ -1,5 +1,9 @@
 <?php 
 
+//Fichero con funciones para las validaciones de todos los datos introducidos para
+//que cumplan los requisitos de seguridad y viabilidad
+
+
 function validDniCifNie($dni){
 	$cif = strtoupper($dni);
 	for ($i = 0; $i < 9; $i ++){

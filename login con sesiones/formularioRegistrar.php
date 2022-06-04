@@ -1,4 +1,7 @@
 <?php 
+
+//Fichero con formulario  para registrar profesores en la base de datos
+
 require_once('valorSeguro.php');
 
 session_start();

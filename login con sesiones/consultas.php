@@ -1,5 +1,5 @@
 <?php 
-
+// Fichero para la consulta del listado de usuarios profesores
 require_once('conexion.php');
 
 $consultar = "select * from registrar_usuarios";

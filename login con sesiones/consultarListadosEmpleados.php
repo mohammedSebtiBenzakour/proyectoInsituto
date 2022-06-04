@@ -1,4 +1,7 @@
 <?php 
+
+// Fichero para consultar el listado de todos los empleados de la aplicacion
+
 require_once('conexion.php');
 require_once('consultas.php');
 

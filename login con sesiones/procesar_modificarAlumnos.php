@@ -1,5 +1,7 @@
 <?php 
 
+// Fichero para procesar la modificacion de los alumnos
+
 require_once('conexion.php');
 
 $dni_alumno = $_POST['dni_alumno'];

@@ -1,5 +1,7 @@
 	<?php 
 
+	//Formulario para logear dependiendo del perfil seleccionado del usuario
+
 	session_start();
 
 	$error = "" ;

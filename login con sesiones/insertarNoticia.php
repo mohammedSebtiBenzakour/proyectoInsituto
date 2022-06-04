@@ -1,5 +1,6 @@
 <?php 
 
+//fichero para insertar una noticia
 
 session_start();
 require_once('conexion.php');

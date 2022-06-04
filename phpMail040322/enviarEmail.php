@@ -1,3 +1,4 @@
+<!-- Fichero con formulario para enviar un email  -->
 <!DOCTYPE html>
 <html>
 <head>

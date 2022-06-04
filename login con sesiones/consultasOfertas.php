@@ -1,5 +1,7 @@
 <?php 
 
+//Fichero para procesar la consulta de ofertas de trabajo
+
 require_once('conexion.php');
 
 $consultar = "select * from insertar_oferta";

@@ -1,4 +1,5 @@
 <?php 
+//Fichero para eliminar los alumnos
 session_start();
 
 require_once('conexion.php');

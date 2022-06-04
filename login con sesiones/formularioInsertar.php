@@ -8,7 +8,7 @@
 	<title>Gestión de un Instítuto</title>
 </head>
 <body >
- 
+ <!-- Formulario no se utiliza por el momento -->
 	<div class="container"  >
 		<nav class="navbar navbar-expand-lg navbar-light  bg-light mt-3">
 				<div class="container-fluid">

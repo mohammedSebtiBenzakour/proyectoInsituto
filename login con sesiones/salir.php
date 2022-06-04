@@ -1,5 +1,5 @@
 <?php 
-
+// Fichero para desconectar asi como cerrar la sesion del usuario
 
 session_start();
 

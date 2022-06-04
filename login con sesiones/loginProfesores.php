@@ -1,5 +1,7 @@
 <?php 
 
+//Fichero con formulario para acceso solo a profesores 
+
 session_start();
 
 $usuario = $_SESSION['usuario'] ;

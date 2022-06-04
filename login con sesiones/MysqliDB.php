@@ -1,5 +1,5 @@
 <?php 
-
+//Fichero que no se utiliza por el momento
 
 class MysqliDB{
 

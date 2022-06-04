@@ -1,5 +1,7 @@
 <?php 
 
+//Fichero que permite logearse desde la ventana principal de la aplicación
+
 require_once("conexion.php");
 
 session_start();

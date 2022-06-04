@@ -1,3 +1,4 @@
+<!-- Fichero para consultar el listado de todos los profesores registrados -->
 <!DOCTYPE html>
 <html>
 <head>

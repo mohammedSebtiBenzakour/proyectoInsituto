@@ -1,5 +1,7 @@
 <?php 
 
+//Fichero no utilizado por el momento
+
 session_start();
 
 $usuario = $_SESSION['usuario'] ;

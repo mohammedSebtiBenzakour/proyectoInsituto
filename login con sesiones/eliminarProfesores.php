@@ -1,4 +1,7 @@
 <?php 
+
+//Fichero por la eliminacion de los profesores
+
 session_start();
 
 require_once('conexion.php');

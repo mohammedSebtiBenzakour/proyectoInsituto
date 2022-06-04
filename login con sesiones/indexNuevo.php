@@ -1,5 +1,7 @@
 <?php 
 
+//Documento principal de acceso a la aplicacion para gestionar el instituto
+
 require_once('conexion.php');
 
 $consultar = "select * from insertar_noticias";
@@ -403,12 +405,12 @@ data-background-color="f5f5f5"
             <!-- FILTER BUTTONS  -->
             <div class="row mt-5 mb-4 g-3 text-center">
               <div class="col-md-12">
-                <button class="btn btn-outline-primary"  type="button"><a href="http://www.google.com">La tierra</a></button>
-                <button class="btn btn-outline-primary"  type="button"><a href="http://www.google.com">El corazon</a></button>
-                <button class="btn btn-outline-primary"  type="button"><a href="http://www.google.com">Cosas que no sabias</a></button>
-                <button class="btn btn-outline-primary" type="button"><a href="http://www.google.com">¿Eres curioso?</a></button>
-                <button class="btn btn-outline-primary" type="button"><a href="http://www.google.com">¿Sabias que?</a></button>
-                <button class="btn btn-outline-primary" type="button"><a href="http://www.google.com">Algo de historia es primordial</a></button>
+                <button class="btn btn-outline-primary"  type="button"><a href="https://www.bbc.com/mundo/noticias/2013/04/130422_diez_datos_planeta_tierra_jg" target="_blank">La tierra</a></button>
+                <button class="btn btn-outline-primary"  type="button"><a href="https://www.texasheart.org/heart-health/heart-information-center/topics/anatomia-del-corazon/" target="_blank">El corazon</a></button>
+                <button class="btn btn-outline-primary"  type="button"><a href="https://www.nostalgica.cl/39-cosas-curiosas-que-quizas-no-sabias/" target="_blank">Cosas que no sabias</a></button>
+                <button class="btn btn-outline-primary" type="button"><a href="https://www.cepvi.com/index.php/test/test-generales/eres-una-persona-curiosa" target="_blank">¿Eres curioso?</a></button>
+                <button class="btn btn-outline-primary" type="button"><a href="https://www.xatakaciencia.com/categoria/sabias-que" target="_blank">¿Sabias que?</a></button>
+                <button class="btn btn-outline-primary" type="button"><a href="https://www.euroinnova.edu.es/blog/porque-es-importante-estudiar-el-pasado-para-entender-el-presente" target="_blank">Algo de historia es primordial</a></button>
             </div>
             <div class="row pt-2">
                 <ul class="modales">
@@ -449,7 +451,7 @@ data-background-color="f5f5f5"
             <div class="portfolio-box shadow">
               <img src="../imagenesInstituto/tierra.jfif" alt="portfolio 1 image" title="portfolio 1 picture" class="img-fluid">
               <div class="portfolio-info">
-                  <h4><a href="http://www.google.com">La tierra</a></h4>
+                  <h4><a href="https://www.bbc.com/mundo/noticias/2013/04/130422_diez_datos_planeta_tierra_jg" target="_blank">La tierra</a></h4>
                   <p>Sus curiosidades</p>
               </div>
           </div>
@@ -458,7 +460,7 @@ data-background-color="f5f5f5"
         <div class="portfolio-box shadow">
           <img src="../imagenesInstituto/corazon.jfif" alt="portfolio 2 image" title="portfolio 2 picture" class="img-fluid">
           <div class="portfolio-info">
-            <h4><a href="http://www.google.com">El corazon</a></h4>
+            <h4><a href="https://www.texasheart.org/heart-health/heart-information-center/topics/anatomia-del-corazon/" target="_blank">El corazon</a></h4>
             <p>Su alrededor</p>
         </div>
     </div>
@@ -467,7 +469,7 @@ data-background-color="f5f5f5"
     <div class="portfolio-box shadow">
       <img src="../imagenesInstituto/noSabias.png" alt="portfolio 3 image" title="portfolio 3 picture" class="img-fluid">
       <div class="portfolio-info">
-        <h4><a href="http://www.google.com">Cosas que no sabias</a></h4>
+        <h4><a href="https://www.nostalgica.cl/39-cosas-curiosas-que-quizas-no-sabias/" target="_blank">Cosas que no sabias</a></h4>
         <p>Realmente, sorprendente</p>
     </div>
 </div>
@@ -476,7 +478,7 @@ data-background-color="f5f5f5"
     <div class="portfolio-box shadow">
       <img src="../imagenesInstituto/curioso.png" alt="portfolio 4 image" title="portfolio 4 picture" class="img-fluid">
       <div class="portfolio-info">
-        <h4><a href="http://www.google.com">¿Eres curioso?</a></h4>
+        <h4><a href="https://www.cepvi.com/index.php/test/test-generales/eres-una-persona-curiosa" target="_blank">¿Eres curioso?</a></h4>
         <p>Este es tu lugar</p>
     </div>
 </div>
@@ -485,7 +487,7 @@ data-background-color="f5f5f5"
     <div class="portfolio-box shadow">
       <img src="../imagenesInstituto/sabiasQue.jfif" alt="portfolio 5 image" title="portfolio 5 picture" class="img-fluid">
       <div class="portfolio-info">
-          <h4><a href="http://www.google.com">¿Sabias que?</a></h4>
+          <h4><a href="https://www.xatakaciencia.com/categoria/sabias-que" target="_blank">¿Sabias que?</a></h4>
           <p>Nunca lo adivinarias</p>
       </div>
   </div>
@@ -494,7 +496,7 @@ data-background-color="f5f5f5"
     <div class="portfolio-box shadow">
       <img src="../imagenesInstituto/cervantes.png" alt="portfolio 6 image" title="portfolio 6 picture" class="img-fluid">
       <div class="portfolio-info">
-        <h4><a href="http://www.google.com">Algo de historia es primordial</a></h4>
+        <h4><a href="https://www.euroinnova.edu.es/blog/porque-es-importante-estudiar-el-pasado-para-entender-el-presente" target="_blank">Algo de historia es primordial</a></h4>
         <p>Sus secretos</p>
     </div>
 </div>
@@ -513,16 +515,19 @@ data-background-color="f5f5f5"
             <span class="footer-title">Información especifica</span>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="aviso_legal.php">Aviso legal</a>
+            <a class="nav-link" href="aviso_legal.php" target="_blank">Aviso legal</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Visitas</a>
+            <a class="nav-link" href="https://www.contadorvisitasgratis.com" target="_blank">Visitas</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Mapa del sitio</a>
+            <a class="nav-link" href="https://octopus.do/di3pieixm2f" target="_blank">Mapa del sitio</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="https://developer.mozilla.org/es/docs/Learn/Common_questions">Preguntas frecuentes</a>
+            <a class="nav-link" href="../DocumentosProyectoFinal/mapasitioPhp.xml" target="_blank">Mapa del sitio (XML)</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="https://developer.mozilla.org/es/docs/Learn/Common_questions" target="_blank">Preguntas frecuentes</a>
         </li>
     </ul>
 </div>
@@ -532,16 +537,16 @@ data-background-color="f5f5f5"
         <span class="footer-title">Nuevas oportunidades</span>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="#">La junta de Andalucía</a>
+        <a class="nav-link" href="https://www.juntadeandalucia.es" target="_blank">La junta de Andalucía</a>
     </li>
     <li class="nav-item">
         <a class="nav-link" href="formularioInsertarOferta.php">Introducir Ofertas de trabajo</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="#">Otras noticias de interés</a>
+        <a class="nav-link" href="https://www.usnews.com/news/top-news" target="_blank">Otras noticias de interés</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="comoLlegar.php">Como llegar</a>
+        <a class="nav-link" href="comoLlegar.php" target="_blank">Como llegar</a>
     </li>
 </ul>
 </div>
@@ -554,7 +559,7 @@ data-background-color="f5f5f5"
         <span class="nav-link"><i class="fas fa-phone"></i>+34 655 173 174</span>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="../simplechat/index.php"><i class="fas fa-comments"></i>Live chat</a>
+        <a class="nav-link" href="../simplechat/index.php" target="_blank"><i class="fas fa-comments"></i>Live chat</a>
     </li>
     <li class="nav-item">
         <a class="nav-link" href="formularioContacto.php"><i class="fas fa-envelope"></i>Contactar</a>
@@ -572,8 +577,9 @@ data-background-color="f5f5f5"
 </div>
 </div>
 
-<div class="text-center"><i class="fas fa-ellipsis-h"></i></div>
 
+<center><div id="sfcbr68khyygzmp5n1zw3stypct34kbdk5y"></div><script type="text/javascript" src="https://counter9.stat.ovh/private/counter.js?c=br68khyygzmp5n1zw3stypct34kbdk5y&down=async" async></script><br><a href="https://www.contadorvisitasgratis.com"></a><noscript><a href="https://www.contadorvisitasgratis.com" title="contador para web"><img src="https://counter9.stat.ovh/private/contadorvisitasgratis.php?c=br68khyygzmp5n1zw3stypct34kbdk5y" border="0" title="contador para web" alt="contador para web"></a></noscript></center>
+<div class="text-center"><i class="fas fa-ellipsis-h"></i></div>
 <div class="row text-center">
   <div class="col-md-4 box">
     <span class="copyright quick-links">Copyright &copy; Todos los derechos reservados <script>document.write(new Date().getFullYear())</script>

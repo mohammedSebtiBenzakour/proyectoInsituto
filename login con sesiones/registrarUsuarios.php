@@ -1,5 +1,7 @@
 <?php 
 
+//Fichero para el procesamiento de registro de usuarios profesores en la base de datos
+
 session_start();
 require_once('conexion.php');
 require_once('valorSeguro.php');

@@ -1,5 +1,7 @@
 <?php 
 
+//Fichero que muestra la pagina principal de los usuarios alumnos cuando acceden con sus credenciales o con su perfil
+
 require_once('conexion.php');
 
 $consultar = "select * from insertar_noticias";

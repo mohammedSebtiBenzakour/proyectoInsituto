@@ -1,3 +1,5 @@
+<!-- Formulario para un feedback de cualquier usuario que desea contactar con el administrador de la aplicacion -->
+
 <!DOCTYPE html>
 <html>
 <head>

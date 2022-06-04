@@ -1,5 +1,7 @@
 <?php 
 
+//Fichero para el procesamiento de la modificacion de los usuarios profesores
+
 require_once('conexion.php');
 
 $dni = $_POST['dni'];

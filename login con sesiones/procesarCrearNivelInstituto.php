@@ -1,5 +1,6 @@
 <?php 
 
+//Fichero para procesar la creacion de nivel en el instituto
 
 session_start();
 require_once('conexion.php');

@@ -1,4 +1,5 @@
 <?php 
+// Fichero Para eliminar el personal no docente
 session_start();
 
 require_once('conexion.php');

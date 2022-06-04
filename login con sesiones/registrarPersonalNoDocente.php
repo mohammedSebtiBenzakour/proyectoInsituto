@@ -1,5 +1,6 @@
 <?php 
 
+//Fichero para gestionar y validar el registro del personal no docente
 
 session_start();
 require_once('conexion.php');

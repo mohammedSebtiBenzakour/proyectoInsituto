@@ -23,12 +23,12 @@ if ($_POST) {
 
       
     }else{
-        echo '<p>El email introducido no es correcto!</p>';
+     //   echo '<p>El email introducido no es correcto!</p>';
 
     }
 }else{
 
-    echo " error al enviar el fichero";
+ //   echo " error al enviar el fichero";
 }
 
 
@@ -78,14 +78,16 @@ try {
     // $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
     $mail->send();
-    echo 'El Mensage se ha enviado a su destinatario';
+  //  echo 'El Mensage se ha enviado a su destinatario';
     echo '<script> alert("El Mensage se ha enviado a su destinatario");
-             location.href="../indexNuevo.php"; </script>';
+             location.href="../login%20con%20sesiones/indexNuevo.php"; </script>';
 
 
 
 } catch (Exception $e) {
-    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+  //  echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+     echo '<script> alert("Error al enviar el mensaje por favor revisa los datos Gracias");
+             location.href="../login%20con%20sesiones/indexNuevo.php"; </script>';
 }
 
 }

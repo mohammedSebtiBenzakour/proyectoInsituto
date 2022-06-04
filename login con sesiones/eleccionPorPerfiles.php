@@ -1,3 +1,4 @@
+<!-- Fichero de eleccion de perfiles no se utiliza por el momento -->
 <!DOCTYPE html>
 <html>
 <head>

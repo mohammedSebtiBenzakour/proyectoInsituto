@@ -1,3 +1,4 @@
+<!-- FIchero con formulario para insertar alumnos en la base de datos -->
 <!DOCTYPE html>
 <html>
 <head>

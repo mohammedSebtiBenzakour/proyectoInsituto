@@ -1,4 +1,7 @@
 <?php 
+
+//Formulario para insertar ofertas de trabajo 
+
 require_once('conexion.php');
 
 session_start();

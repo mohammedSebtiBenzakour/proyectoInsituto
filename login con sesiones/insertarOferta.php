@@ -1,5 +1,6 @@
 <?php 
 
+//Fichero de validacion de la insercion de las ofertas de trabajo
 
 session_start();
 require_once('conexion.php');

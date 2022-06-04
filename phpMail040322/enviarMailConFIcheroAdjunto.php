@@ -121,14 +121,14 @@ try {
     // $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
     $mail->send();
-    echo 'El Mensage se ha enviado a su destinatario';
+   // echo 'El Mensage se ha enviado a su destinatario';
     echo '<script> alert("El Mensage se ha enviado a su destinatario");
              location.href="../index.php"; </script>';
 
 
 
 } catch (Exception $e) {
-    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+  //  echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
      echo '<script> alert("Message could not be sent. ");
              location.href="../index.php"; </script>';
 }

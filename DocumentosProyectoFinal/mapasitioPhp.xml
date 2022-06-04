@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://instituto.msebti1974.live:9000/login%20con%20sesiones/indexNuevo.php</loc>
+  <lastmod>2022-06-04T18:24:36+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://instituto.msebti1974.live:9000/login%20con%20sesiones/loginPorPerfiles.php</loc>
+  <lastmod>2022-06-04T18:24:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://instituto.msebti1974.live:9000/login%20con%20sesiones/eleccionPorPerfiles.php</loc>
+  <lastmod>2022-06-04T18:24:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://instituto.msebti1974.live:9000/login%20con%20sesiones/documentacion.php</loc>
+  <lastmod>2022-06-04T18:24:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://instituto.msebti1974.live:9000/login%20con%20sesiones/registrarAlumnos.php</loc>
+  <lastmod>2022-06-04T18:24:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://instituto.msebti1974.live:9000/login%20con%20sesiones/crearNivelInstituto.php</loc>
+  <lastmod>2022-06-04T18:24:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://instituto.msebti1974.live:9000/login%20con%20sesiones/formularioRegistrarPersonalNoDocente.php</loc>
+  <lastmod>2022-06-04T18:24:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://instituto.msebti1974.live:9000/login%20con%20sesiones/crearDepartamento.php</loc>
+  <lastmod>2022-06-04T18:24:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://instituto.msebti1974.live:9000/login%20con%20sesiones/apuntarTareas.html</loc>
+  <lastmod>2022-05-18T20:50:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://instituto.msebti1974.live:9000/login%20con%20sesiones/calendario.html</loc>
+  <lastmod>2022-05-18T20:50:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://instituto.msebti1974.live:9000/login%20con%20sesiones/aviso_legal.php</loc>
+  <lastmod>2022-06-04T18:24:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://instituto.msebti1974.live:9000/login%20con%20sesiones/formularioInsertarOferta.php</loc>
+  <lastmod>2022-06-04T18:24:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://instituto.msebti1974.live:9000/login%20con%20sesiones/comoLlegar.php</loc>
+  <lastmod>2022-06-04T18:24:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://instituto.msebti1974.live:9000/login%20con%20sesiones/formularioContacto.php</loc>
+  <lastmod>2022-06-04T18:24:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://instituto.msebti1974.live:9000/login%20con%20sesiones/feedbackForm.php</loc>
+  <lastmod>2022-06-04T18:24:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://instituto.msebti1974.live:9000/login%20con%20sesiones/aviso_legal.pdf</loc>
+  <lastmod>2022-05-18T20:50:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://instituto.msebti1974.live:9000/login%20con%20sesiones/consultarOfertas.php</loc>
+  <lastmod>2022-06-04T18:24:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>

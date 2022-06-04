@@ -1,5 +1,6 @@
 <?php 
 
+// Fichero para el proceso de la creacion de un departamento
 
 session_start();
 require_once('conexion.php');

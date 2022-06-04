@@ -1,5 +1,6 @@
 <?php 
 
+//Fichero para el procesamiento del registro de alumnos en la base de datos
 
 session_start();
 require_once('conexion.php');

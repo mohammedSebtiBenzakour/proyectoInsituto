@@ -1,3 +1,4 @@
+<!-- Fichero que indica como llegar a la direccion del instituto -->
 <!DOCTYPE html>
 <html>
 <head>

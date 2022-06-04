@@ -1,5 +1,7 @@
 <?php 
 
+// Fichero para procesar la modificacion de personal no docente
+
 require_once('conexion.php');
 
 $dni = $_POST['dni'];

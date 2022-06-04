@@ -1,4 +1,7 @@
 <?php 
+
+//Fichero para Consultar documentación Solo accesible por 'Profesores' y 'Jefatura'
+
 require_once('conexion.php');
 require_once('consultasOfertas.php');
 

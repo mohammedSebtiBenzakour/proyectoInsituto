@@ -1,7 +1,11 @@
 <?php
  // FUNCIONA MUY BIEN ENTRE JAVA Y PHP 22 05 2022
  // 
- // 
+ // Es un fichero que contiene funciones para encryptar y decryptar contraseñas y datos cualquiera
+ // en entorno php asi poder encryptarla o decryptarla en el entorno de recepcion en mi caso 
+ // java con funciones similiras
+ 
+ 
 class JavaPHPCompatibleEncryption {
  
     private static $OPENSSL_CIPHER_NAME = "aes-128-cbc"; //Name of OpenSSL Cipher 

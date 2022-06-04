@@ -1,5 +1,5 @@
 <?php 
-
+// Fichero para la conexion a la base de datos instituto
 
 	 $host = "localhost";
 	 $usuario = "instituto";

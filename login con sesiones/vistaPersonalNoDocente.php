@@ -1,5 +1,7 @@
 <?php 
 
+//Fichero que muestra la pagina principal cuando acceden el personal no docente con sus credenciales
+
 require_once('conexion.php');
 
 $consultar = "select * from insertar_noticias";

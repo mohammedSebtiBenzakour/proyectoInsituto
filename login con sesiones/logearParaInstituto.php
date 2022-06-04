@@ -1,5 +1,7 @@
 <?php 
 
+//Fichero para la validacion de acceso a los usuarios tanto administrador como otros en la aplicacion
+
 require_once("conexion.php");
 
 session_start();

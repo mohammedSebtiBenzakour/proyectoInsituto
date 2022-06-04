@@ -1,4 +1,7 @@
 <?php 
+
+//formulario para insertar noticias
+
 require_once('conexion.php');
 
 session_start();
