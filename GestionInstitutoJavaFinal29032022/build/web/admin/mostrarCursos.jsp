@@ -2,6 +2,8 @@
     Document   : mostrarCursos
     Created on : 02-abr-2022, 13:32:27
     Author     : daw2
+
+Fichero para mostrar el listado de cursos
 --%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="latin1"%>

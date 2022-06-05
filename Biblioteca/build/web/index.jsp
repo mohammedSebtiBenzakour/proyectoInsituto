@@ -2,6 +2,8 @@
     Document   : index
     Created on : 30-dic-2021, 22:59:40
     Author     : daw2
+
+Fichero con formulario para logearse por primera vez en la aplicación
 --%>
 
 

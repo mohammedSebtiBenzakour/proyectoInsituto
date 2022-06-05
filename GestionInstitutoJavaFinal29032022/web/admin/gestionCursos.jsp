@@ -2,6 +2,8 @@
     Document   : gestionCursos
     Created on : 02-abr-2022, 13:02:23
     Author     : daw2
+
+Fichero para la gestion de cursos
 --%>
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>

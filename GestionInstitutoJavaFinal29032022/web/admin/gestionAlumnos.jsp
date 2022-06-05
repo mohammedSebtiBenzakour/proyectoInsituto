@@ -2,6 +2,8 @@
     Document   : gestionAlumnos
     Created on : 20-mar-2022, 10:15:54
     Author     : daw2
+
+Fichero para gestionar alumnos
 --%>
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>

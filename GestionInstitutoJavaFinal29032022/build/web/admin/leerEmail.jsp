@@ -2,6 +2,8 @@
     Document   : leerEmail
     Created on : 23-abr-2022, 23:04:06
     Author     : daw2
+
+Fichero para leer los emails
 --%>
 <%@page import="central.LeerEmail"%>
 <%@page import="javax.mail.MessagingException"%>

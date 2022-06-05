@@ -2,6 +2,8 @@
     Document   : introducirClave
     Created on : 13-abr-2022, 15:36:59
     Author     : daw2
+
+Fichero para la introducción de la clave para la recuperación de la contraseña
 --%>
 
 <%@page contentType="text/html" pageEncoding="latin1"%>

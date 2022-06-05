@@ -2,6 +2,8 @@
     Document   : editarLibro
     Created on : 31-dic-2021, 10:44:09
     Author     : daw2
+
+Fichero con formulario para editar un libro
 --%>
 <%@page import="java.util.List"%>
 <%@page import="controladorEditarLibro.Categoria"%>

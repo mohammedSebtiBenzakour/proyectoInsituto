@@ -2,6 +2,8 @@
     Document   : insertarNivel
     Created on : 02-abr-2022, 11:12:44
     Author     : daw2
+
+Fichero con formulario para insertar un nivel
 --%>
 <%@page import="javax.persistence.Query"%>
 <%@page import="javax.persistence.EntityManager"%>

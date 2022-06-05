@@ -2,6 +2,9 @@
     Document   : forgot-process
     Created on : 31-dic-2021, 20:11:23
     Author     : daw2
+
+Fichero para el proceso de recuperar una contraseña 
+algunas veces funciona algunas veces no
 --%>
 
 <%@page import="javax.mail.MessagingException"%>

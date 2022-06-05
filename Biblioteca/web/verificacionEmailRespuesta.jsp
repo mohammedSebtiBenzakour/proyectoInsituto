@@ -2,6 +2,8 @@
     Document   : verificacionEmailRespuesta
     Created on : 01-ene-2022, 15:28:17
     Author     : daw2
+
+Fichero con formulario para verificar el email con codigo de recuperación
 --%>
 
 <%@page contentType="text/html" pageEncoding="latin1"%>

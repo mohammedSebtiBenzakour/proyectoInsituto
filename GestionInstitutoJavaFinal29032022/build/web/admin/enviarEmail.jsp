@@ -2,6 +2,8 @@
     Document   : enviarEmail
     Created on : 23-abr-2022, 17:28:51
     Author     : daw2
+
+Formulario para enviar un email
 --%>
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>

@@ -2,6 +2,7 @@
     Document   : cambiarContrasenia
     Created on : 31-dic-2021, 21:39:13
     Author     : daw2
+Fichero con formulario para la posibilidad para cambiar la contraseña del usuario
 --%>
 
 <%@page contentType="text/html" pageEncoding="latin1"%>

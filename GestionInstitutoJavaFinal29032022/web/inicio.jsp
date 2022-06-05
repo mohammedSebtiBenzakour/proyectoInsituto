@@ -1,4 +1,5 @@
 <%-- 
+Pagina inicio.jsp para gestionar los alumnos
     Document   : inicio
     Created on : 19-mar-2022, 20:19:07
     Author     : daw2
@@ -122,6 +123,14 @@
                 </div>
             </div>
 
+        </section>
+        <section>
+            <div id="sfcuhaddgba5awfsraked4ndqgnc73a4hn9"></div>
+            <script type="text/javascript" src="https://counter9.stat.ovh/private/counter.js?c=uhaddgba5awfsraked4ndqgnc73a4hn9&down=async" async></script>
+            <br>
+            <a href="https://www.contadorvisitasgratis.com"></a><noscript><a href="https://www.contadorvisitasgratis.com" title="contador de visitas para blog">
+                <img src="https://counter9.stat.ovh/private/contadorvisitasgratis.php?c=uhaddgba5awfsraked4ndqgnc73a4hn9" border="0" title="contador de visitas para blog" alt="contador de visitas para blog">
+            </a></noscript>
         </section>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>

@@ -2,6 +2,8 @@
     Document   : cerrarSession
     Created on : 31-dic-2021, 0:24:05
     Author     : daw2
+
+Fichero para cerrar la sesión del usuario
 --%>
 <%
     session.invalidate();

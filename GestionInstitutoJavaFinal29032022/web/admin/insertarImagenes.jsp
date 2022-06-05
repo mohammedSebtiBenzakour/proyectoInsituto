@@ -2,6 +2,8 @@
     Document   : insertarImagenes
     Created on : 09-abr-2022, 17:19:23
     Author     : daw2
+
+Fichero con formulario para insertar una imagen
 --%>
 
 <%@page contentType="text/html" pageEncoding="latin1"%>

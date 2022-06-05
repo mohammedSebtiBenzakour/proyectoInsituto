@@ -2,6 +2,8 @@
     Document   : modificarCurso
     Created on : 02-abr-2022, 13:46:57
     Author     : daw2
+
+Formulario para modificar un curso
 --%>
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>

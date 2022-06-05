@@ -2,6 +2,8 @@
     Document   : verificacionEmail
     Created on : 01-ene-2022, 14:53:58
     Author     : daw2
+
+Fichero con formulario para verificar un email
 --%>
 
 <%@page contentType="text/html" pageEncoding="latin1"%>

@@ -2,6 +2,8 @@
     Document   : changePassword
     Created on : 31-dic-2021, 21:37:55
     Author     : daw2
+
+Fichero con tratamiento para el cambio de contraseña
 --%>
 
 <%@page import="controlador.Conexion"%>

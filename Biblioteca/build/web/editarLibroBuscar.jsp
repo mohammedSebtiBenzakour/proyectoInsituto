@@ -2,6 +2,8 @@
     Document   : editarLibroBuscar
     Created on : 31-dic-2021, 19:13:56
     Author     : daw2
+
+Fichero con formulario para editar un libro una vez pulsada la opcion de buscar un libro
 --%>
 <%@page import="controladorEditarLibro.Categoria"%>
 <%@page import="java.sql.Connection"%>

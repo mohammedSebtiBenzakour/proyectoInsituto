@@ -2,6 +2,8 @@
     Document   : mostrarEvaluaciones
     Created on : 02-abr-2022, 14:29:28
     Author     : daw2
+
+Fichero para mostrar el listado de evaluaciones
 --%>
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>

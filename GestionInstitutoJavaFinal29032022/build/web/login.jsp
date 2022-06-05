@@ -1,4 +1,6 @@
 <%-- 
+Pagina login.jsp para acceso y validacion del usuario a la aplicación
+
     Document   : login
     Created on : 19-mar-2022, 17:39:00
     Author     : daw2
@@ -54,7 +56,7 @@
                                 <%
                                     String usu = request.getParameter("usu");
                                     String pas = request.getParameter("pas");
-                                    
+                                 // Clase que permite encriptar y decriptar palabras entre java y php y vice versa   
                                     JavaPHPCompatibleEncryption jph = new JavaPHPCompatibleEncryption();
                                     String jp = JavaPHPCompatibleEncryption.ENCRYPTION_KEY;
                                     

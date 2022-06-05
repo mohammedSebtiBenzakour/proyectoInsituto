@@ -2,6 +2,8 @@
     Document   : modificarNotaAlumno
     Created on : 27-mar-2022, 14:37:13
     Author     : daw2
+
+Formulario para modificar una nota de un alumno
 --%>
 
 <%@page contentType="text/html" pageEncoding="latin1"%>

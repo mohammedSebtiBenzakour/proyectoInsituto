@@ -2,6 +2,8 @@
     Document   : insertarCurso
     Created on : 02-abr-2022, 14:01:30
     Author     : daw2
+
+Fichero con formulario para insertar un curso
 --%>
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>

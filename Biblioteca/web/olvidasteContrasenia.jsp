@@ -2,6 +2,8 @@
     Document   : olvidasteContrasenia
     Created on : 31-dic-2021, 20:10:46
     Author     : daw2
+
+Fichero con formulario para recuperar una contraseña
 --%>
 
 <%@page contentType="text/html" pageEncoding="latin1"%>

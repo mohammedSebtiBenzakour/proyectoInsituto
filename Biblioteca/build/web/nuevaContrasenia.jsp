@@ -2,6 +2,8 @@
     Document   : newjspnuevaContrasenia
     Created on : 13-abr-2022, 15:45:52
     Author     : daw2
+
+Fichero con formulario para restaurar la contraseña
 --%>
 
 <%@page contentType="text/html" pageEncoding="latin1"%>

@@ -2,6 +2,8 @@
     Document   : mostrarAlumnos
     Created on : 20-mar-2022, 10:42:55
     Author     : daw2
+
+Fichero para mostrar el listado de alumnos
 --%>
 
 <%@page import="entidades.Registrar_alumnos"%>

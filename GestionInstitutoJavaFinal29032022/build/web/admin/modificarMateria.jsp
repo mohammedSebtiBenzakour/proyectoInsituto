@@ -2,6 +2,8 @@
     Document   : modificarMateria
     Created on : 27-mar-2022, 21:48:27
     Author     : daw2
+
+Formulario para modificar una materia
 --%>
 
 <%@page import="javax.persistence.Query"%>

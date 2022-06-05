@@ -2,6 +2,8 @@
     Document   : mostrarNotasAlumnos
     Created on : 20-mar-2022, 18:27:58
     Author     : daw2
+
+Fichero para mostrar el listado de notas de alumnos
 --%>
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>

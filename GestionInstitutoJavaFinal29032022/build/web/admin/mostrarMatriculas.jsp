@@ -2,6 +2,8 @@
     Document   : mostrarMatriculas
     Created on : 02-abr-2022, 20:01:55
     Author     : daw2
+
+Fichero para mostrar el listado de matriculas
 --%>
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>

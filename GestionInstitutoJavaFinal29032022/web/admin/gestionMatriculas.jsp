@@ -2,6 +2,8 @@
     Document   : gestionMatriculas
     Created on : 02-abr-2022, 18:18:13
     Author     : daw2
+
+Fichero para la gestion de matriculas
 --%>
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>

@@ -2,6 +2,8 @@
     Document   : gestionEvaluaciones
     Created on : 02-abr-2022, 14:19:24
     Author     : daw2
+
+Fichero para la gestion de evaluaciones
 --%>
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>

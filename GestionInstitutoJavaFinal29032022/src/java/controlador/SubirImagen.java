@@ -1,7 +1,5 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+Servlet para subir imagenes al servidor
  */
 package controlador;
 
@@ -85,7 +83,7 @@ public class SubirImagen extends HttpServlet {
 
         //hacer copia del fichero a subir en el servidor
         //el path del directorio
-        String path = getServletContext().getRealPath("ficheros");
+        String path = getServletContext().getRealPath("imagenes");
         //el path del fichero
         FileOutputStream fos = new FileOutputStream(path + "/" + nombreFichero);
 

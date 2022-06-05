@@ -2,6 +2,8 @@
     Document   : enviarEmailAlumnoNota
     Created on : 27-mar-2022, 15:54:15
     Author     : daw2
+
+Formulario para enviar por email nota alumno
 --%>
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>

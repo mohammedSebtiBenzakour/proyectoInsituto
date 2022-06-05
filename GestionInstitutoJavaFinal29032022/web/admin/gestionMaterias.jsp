@@ -2,6 +2,8 @@
     Document   : gestionMaterias
     Created on : 27-mar-2022, 19:50:18
     Author     : daw2
+
+Fichero para la gestion de materias
 --%>
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>

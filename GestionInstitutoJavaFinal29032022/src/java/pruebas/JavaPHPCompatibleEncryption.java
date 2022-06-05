@@ -1,5 +1,7 @@
 /*
 FUNCIONA MUY BIEN ENTRE JAVA Y PHP 22 05 2022
+Clase que sirve para encriptar y decriptar claves o palabras y que se pueden 
+decriptar o encriptar tanto en java como en php sin ningun problema
  */
 package pruebas;
 

@@ -2,6 +2,9 @@
     Document   : editarLibroIndex
     Created on : 31-dic-2021, 10:48:42
     Author     : daw2
+
+Fichero principal de la biblioteca donde se muestra los libros disponibles asi como
+la posibilidad de añadir un libro
 --%>
 <%@page import="controlador.Conexion"%>
 <%@page import="java.util.LinkedList"%>
@@ -86,7 +89,7 @@
         <div  class="container mt-2 bg-light">
             <nav class="navbar navbar-light">
                 <a class="navbar-brand">Bibilioteca</a>
-                <a class="navbar-brand btn btn-warning" href="Pdf">Listado de todos los libros en PDF</a>
+                <a class="navbar-brand btn btn-warning" href="Pdf" target="_blank">Listado de todos los libros en PDF</a>
                 <form class="d-flex gap-2 justify-content-end" action="ServletLibrosBuscar" method="post">
                     <input class="form-control w-100" type="search" placeholder="Search" aria-label="Search" name="buscar" >
                     <button class="btn btn-outline-success w-100" type="submit">Search</button>

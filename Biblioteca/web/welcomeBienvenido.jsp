@@ -2,6 +2,8 @@
     Document   : welcomeBienvenido
     Created on : 18-ene-2022, 17:23:19
     Author     : daw2
+
+Fichero que refleja la pagina de inicio una vez logeado correctamente en la aplicación
 --%>
 <%@page import="controlador.Usuario"%>
 <%@page contentType="text/html" pageEncoding="latin1"%>
@@ -125,6 +127,11 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col">
+                    <div id="sfcuhaddgba5awfsraked4ndqgnc73a4hn9"></div><script type="text/javascript" src="https://counter9.stat.ovh/private/counter.js?c=uhaddgba5awfsraked4ndqgnc73a4hn9&down=async" async></script><br><a href="https://www.contadorvisitasgratis.com"></a><noscript><a href="https://www.contadorvisitasgratis.com" title="contador de visitas para blog"><img src="https://counter9.stat.ovh/private/contadorvisitasgratis.php?c=uhaddgba5awfsraked4ndqgnc73a4hn9" border="0" title="contador de visitas para blog" alt="contador de visitas para blog"></a></noscript>
                 </div>
             </div>
         </div>

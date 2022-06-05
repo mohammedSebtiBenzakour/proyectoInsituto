@@ -2,6 +2,8 @@
     Document   : mostrarResultadoNotas
     Created on : 26-mar-2022, 15:00:31
     Author     : daw2
+
+Fichero para mostrar el listado de resultados de notas
 --%>
 
 <%@page contentType="text/html" pageEncoding="latin1"%>

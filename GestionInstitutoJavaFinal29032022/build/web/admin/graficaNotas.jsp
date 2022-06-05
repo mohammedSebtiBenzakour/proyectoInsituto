@@ -2,6 +2,8 @@
     Document   : graficaNotas
     Created on : 13-abr-2022, 20:29:38
     Author     : daw2
+
+Fichero para mostrar las notas en una grafica
 --%>
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>

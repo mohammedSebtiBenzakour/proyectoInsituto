@@ -2,6 +2,8 @@
     Document   : registrarse
     Created on : 30-dic-2021, 23:01:12
     Author     : daw2
+
+Fichero para registrar un usuario
 --%>
 
 <%@page contentType="text/html" pageEncoding="latin1"%>

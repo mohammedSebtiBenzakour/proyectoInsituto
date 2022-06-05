@@ -2,6 +2,8 @@
     Document   : error
     Created on : 31-dic-2021, 0:33:47
     Author     : daw2
+
+Fichero error que indica que los datos introducidos al logearse son incorrectos
 --%>
 <%
 

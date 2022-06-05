@@ -2,6 +2,8 @@
     Document   : mostrarTodasLasNotas
     Created on : 27-mar-2022, 13:45:19
     Author     : daw2
+
+Fichero para mostrar el listado de todas las notas
 --%>
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>

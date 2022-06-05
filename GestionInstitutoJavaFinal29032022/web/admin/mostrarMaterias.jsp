@@ -2,6 +2,8 @@
     Document   : mostrarMaterias
     Created on : 27-mar-2022, 20:15:32
     Author     : daw2
+
+Fichero para mostrar el listado de materias
 --%>
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
