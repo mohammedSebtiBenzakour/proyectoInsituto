@@ -72,7 +72,7 @@ include_once('ClaseEncuesta.php');
 			$db->connect();
 
 			?>
-			<a href="../indexNuevo.php" class="btn btn-danger rounded-pill mt-2" >Volver</a>
+			<a href="../index.php" class="btn btn-danger rounded-pill mt-2" >Volver</a>
 			<a href="encuesta.php" class="btn btn-warning rounded-pill mt-2" >Volver a votar</a>
 		</section>
 	</center>

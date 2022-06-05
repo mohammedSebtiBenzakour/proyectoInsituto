@@ -410,13 +410,16 @@ data-background-color="f5f5f5"
             <a class="nav-link" href="aviso_legal.php">Aviso legal</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Visitas</a>
+            <a class="nav-link" href="https://www.contadorvisitasgratis.com" target="_blank">Visitas</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Mapa del sitio</a>
+            <a class="nav-link" href="https://octopus.do/di3pieixm2f" target="_blank">Mapa del sitio</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="https://developer.mozilla.org/es/docs/Learn/Common_questions">Preguntas frecuentes</a>
+            <a class="nav-link" href="../DocumentosProyectoFinal/mapasitioPhp.xml" target="_blank">Mapa del sitio (XML)</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="https://developer.mozilla.org/es/docs/Learn/Common_questions" target="_blank">Preguntas frecuentes</a>
         </li>
     </ul>
 </div>
@@ -426,16 +429,16 @@ data-background-color="f5f5f5"
         <span class="footer-title">Nuevas oportunidades</span>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="#">La junta de Andalucía</a>
+        <a class="nav-link" href="https://www.juntadeandalucia.es" target="_blank">La junta de Andalucía</a>
     </li>
     <li class="nav-item">
         <a class="nav-link" href="formularioInsertarOferta.php">Introducir Ofertas de trabajo</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="#">Otras noticias de interés</a>
+        <a class="nav-link" href="https://www.usnews.com/news/top-news" target="_blank">Otras noticias de interés</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="comoLlegar.php">Como llegar</a>
+        <a class="nav-link" href="comoLlegar.php" target="_blank">Como llegar</a>
     </li>
 </ul>
 </div>
@@ -448,7 +451,7 @@ data-background-color="f5f5f5"
         <span class="nav-link"><i class="fas fa-phone"></i>+34 655 173 174</span>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="../simplechat/index.php"><i class="fas fa-comments"></i>Live chat</a>
+        <a class="nav-link" href="../simplechat/index.php" target="_blank"><i class="fas fa-comments"></i>Live chat</a>
     </li>
     <li class="nav-item">
         <a class="nav-link" href="formularioContacto.php"><i class="fas fa-envelope"></i>Contactar</a>
@@ -465,6 +468,7 @@ data-background-color="f5f5f5"
 </ul>
 </div>
 </div>
+<center><div id="sfcbr68khyygzmp5n1zw3stypct34kbdk5y"></div><script type="text/javascript" src="https://counter9.stat.ovh/private/counter.js?c=br68khyygzmp5n1zw3stypct34kbdk5y&down=async" async></script><br><a href="https://www.contadorvisitasgratis.com"></a><noscript><a href="https://www.contadorvisitasgratis.com" title="contador para web"><img src="https://counter9.stat.ovh/private/contadorvisitasgratis.php?c=br68khyygzmp5n1zw3stypct34kbdk5y" border="0" title="contador para web" alt="contador para web"></a></noscript></center>
 
 <div class="text-center"><i class="fas fa-ellipsis-h"></i></div>
 

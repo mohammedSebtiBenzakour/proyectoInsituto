@@ -43,8 +43,8 @@ function createTareasElement(id, content){
 			title: 'Realmente quieres borrar la tarea?',
 			showDenyButton: true,
 			showCancelButton: true,
-			confirmButtonText: 'Save',
-			denyButtonText: `Don't save`,
+			confirmButtonText: 'Si',
+			denyButtonText: `No`,
 		}).then((result) => {
 			/* Read more about isConfirmed, isDenied below */
 			if (result.isConfirmed) {

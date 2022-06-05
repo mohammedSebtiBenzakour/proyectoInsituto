@@ -69,7 +69,7 @@
             <p> <input type="submit" name="submit" value="submit" id="submit"></p>
         </form>
         <a href="sesionCerrar.jsp">Cerrar session</a>
-        <a href="http://localhost/ProyectoPropioBootstrapGestionInstyituto010422/indexNuevo.php">Volver</a>
+        <a href="http://localhost/ProyectoPropioBootstrapGestionInstyituto010422/index.php">Volver</a>
     </center>
 </body>
 </html>

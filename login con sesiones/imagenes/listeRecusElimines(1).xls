@@ -1,0 +1,460 @@
+<table border="1"><tr><th>Date</th><th>Reçu</th><th>Le Type</th><th>Attestation</th><th>Police</th><th>Matricule</th><th>Produit</th><th>Assuré</th><th>Date du</th><th>Date au</th><th>Prime Totale</th><th>Espèce</th><th>Chéque</th><th>Virement</th><th>Reste</th><th>Date versement</th><th>Crée le</th></tr><tr><td>2022-05-08</td>
+		<td>3</td>
+			  <td>Changement vehicule</td><td>
+			  mohammed</td><td>
+			  mohammed</td><td>
+			  mohammed</td><td>
+			  mohammed</td><td>
+			  mohammed</td><td>
+			  2022-05-21</td><td>
+			  2022-05-24</td><td>
+			  23.00</td><td>
+			  2.34</td><td>
+			  0.00</td><td>
+			   0.00</td><td>
+			    20.66</td><td>
+			    2022-05-18</td><td>
+			    
+			  2022-05-08 22:12:17</td></tr><tr><td>2022-05-08</td>
+		<td>2</td>
+			  <td>Duplicata</td><td>
+			  sebti</td><td>
+			  sebti</td><td>
+			  sebti</td><td>
+			  sebti</td><td>
+			  sebti</td><td>
+			  2022-05-19</td><td>
+			  2022-05-18</td><td>
+			  234.54</td><td>
+			  23.00</td><td>
+			  200.00</td><td>
+			   0.00</td><td>
+			    11.54</td><td>
+			    2022-05-18</td><td>
+			    
+			  2022-05-08 22:12:21</td></tr><tr><td>2022-05-21</td>
+		<td>8</td>
+			  <td>Attestation définitive</td><td>
+			  ddddddd</td><td>
+			  ddddd</td><td>
+			  ddddd</td><td>
+			  dddd</td><td>
+			  dddd</td><td>
+			  2022-05-19</td><td>
+			  2022-05-31</td><td>
+			  99.00</td><td>
+			  0.00</td><td>
+			  0.00</td><td>
+			   0.00</td><td>
+			    99.00</td><td>
+			    1970-01-01</td><td>
+			    
+			  2022-05-29 12:29:41</td></tr><tr><td>2022-05-13</td>
+		<td>7</td>
+			  <td>Resiliation</td><td>
+			  mmmmm</td><td>
+			  mmmmm</td><td>
+			  mmmmm</td><td>
+			  mmmmm</td><td>
+			  mmmmm</td><td>
+			  2022-05-18</td><td>
+			  2022-05-29</td><td>
+			  444.00</td><td>
+			  0.00</td><td>
+			  0.00</td><td>
+			   0.00</td><td>
+			    444.00</td><td>
+			    1970-01-01</td><td>
+			    
+			  2022-05-29 12:49:53</td></tr><tr><td>2022-05-13</td>
+		<td>6</td>
+			  <td>Changement vehicule</td><td>
+			  wwww</td><td>
+			  wwww</td><td>
+			  wwww</td><td>
+			  wwww</td><td>
+			  wwww</td><td>
+			  2022-05-19</td><td>
+			  2022-05-29</td><td>
+			  123.00</td><td>
+			  0.00</td><td>
+			  0.00</td><td>
+			   0.00</td><td>
+			    123.00</td><td>
+			    </td><td>
+			    
+			  2022-05-29 12:50:04</td></tr><tr><td>2022-05-28</td>
+		<td>9</td>
+			  <td>Renouvellement</td><td>
+			  mohammeddddddddddddddddddddd</td><td>
+			  mohammeddddddddddddddddddddd</td><td>
+			  mohammeddddddddddddddddddddd</td><td>
+			  mohammeddddddddddddddddddddd</td><td>
+			  mohammeddddddddddddddddddddd</td><td>
+			  2022-05-24</td><td>
+			  2022-05-21</td><td>
+			  1233.00</td><td>
+			  0.00</td><td>
+			  0.00</td><td>
+			   0.00</td><td>
+			    1233.00</td><td>
+			    </td><td>
+			    
+			  2022-05-29 12:50:11</td></tr><tr><td>2022-05-11</td>
+		<td>5</td>
+			  <td>Changement vehicule</td><td>
+			  </td><td>
+			  aeafsfsafasf</td><td>
+			  </td><td>
+			  asfafaf</td><td>
+			  asfasfasf</td><td>
+			  2022-05-28</td><td>
+			  2022-05-29</td><td>
+			  123.99</td><td>
+			  22.00</td><td>
+			  33.00</td><td>
+			   0.00</td><td>
+			    68.99</td><td>
+			    2022-05-22</td><td>
+			    
+			  2022-05-29 12:52:54</td></tr><tr><td>2022-05-10</td>
+		<td>4</td>
+			  <td>Duplicata</td><td>
+			  defrtg</td><td>
+			  defrtg</td><td>
+			  defrtg</td><td>
+			  defrtg</td><td>
+			  Brook Insall</td><td>
+			  2022-05-21</td><td>
+			  2022-05-29</td><td>
+			  234.65</td><td>
+			  23.54</td><td>
+			  4.00</td><td>
+			   0.00</td><td>
+			    207.11</td><td>
+			    2022-06-05</td><td>
+			    
+			  2022-05-29 12:52:58</td></tr><tr><td>2022-05-29</td>
+		<td>16</td>
+			  <td>Affaire nouvelle</td><td>
+			  beta</td><td>
+			  beta</td><td>
+			  beta</td><td>
+			  beta</td><td>
+			  beta</td><td>
+			  2022-04-30</td><td>
+			  2022-06-05</td><td>
+			  454545.00</td><td>
+			  0.00</td><td>
+			  0.00</td><td>
+			   0.00</td><td>
+			    454545.00</td><td>
+			    </td><td>
+			    
+			  2022-05-29 12:53:53</td></tr><tr><td>2022-05-28</td>
+		<td>10</td>
+			  <td>Renouvellement</td><td>
+			  mohammeddddddddddddddddddddd</td><td>
+			  mohammeddddddddddddddddddddd</td><td>
+			  mohammeddddddddddddddddddddd</td><td>
+			  mohammeddddddddddddddddddddd</td><td>
+			  mohammeddddddddddddddddddddd</td><td>
+			  2022-05-24</td><td>
+			  2022-05-21</td><td>
+			  1233.00</td><td>
+			  0.00</td><td>
+			  0.00</td><td>
+			   0.00</td><td>
+			    1233.00</td><td>
+			    </td><td>
+			    
+			  2022-05-29 13:05:36</td></tr><tr><td>2022-05-28</td>
+		<td>11</td>
+			  <td>Renouvellement</td><td>
+			  mohammeddddddddddddddddddddd</td><td>
+			  mohammeddddddddddddddddddddd</td><td>
+			  mohammeddddddddddddddddddddd</td><td>
+			  mohammeddddddddddddddddddddd</td><td>
+			  mohammeddddddddddddddddddddd</td><td>
+			  2022-05-24</td><td>
+			  2022-05-21</td><td>
+			  1233.00</td><td>
+			  0.00</td><td>
+			  0.00</td><td>
+			   0.00</td><td>
+			    1233.00</td><td>
+			    </td><td>
+			    
+			  2022-05-29 13:05:44</td></tr><tr><td>2022-05-29</td>
+		<td>13</td>
+			  <td>Resiliation</td><td>
+			  moha123</td><td>
+			  simonFilipo11111</td><td>
+			  simonFilipo</td><td>
+			  simonFilipo</td><td>
+			  simonFilipo</td><td>
+			  2022-05-30</td><td>
+			  2022-06-05</td><td>
+			  23456.00</td><td>
+			  0.00</td><td>
+			  0.00</td><td>
+			   0.00</td><td>
+			    23456.00</td><td>
+			    1970-01-01</td><td>
+			    
+			  2022-05-29 17:19:30</td></tr><tr><td>2022-05-28</td>
+		<td>12</td>
+			  <td>Changement vehicule</td><td>
+			  sebtifff</td><td>
+			  sebti</td><td>
+			  sebti</td><td>
+			  sebti</td><td>
+			  sebti</td><td>
+			  2022-05-25</td><td>
+			  2022-05-18</td><td>
+			  4566.97</td><td>
+			  0.00</td><td>
+			  0.00</td><td>
+			   0.00</td><td>
+			    4566.97</td><td>
+			    1970-01-01</td><td>
+			    
+			  2022-05-29 17:19:37</td></tr><tr><td>2022-05-29</td>
+		<td>18</td>
+			  <td>Attestation d?finitive</td><td>
+			  alhamdulillah plus</td><td>
+			  alhamdulillah plus</td><td>
+			  alhamdulillah plus</td><td>
+			  alhamdulillah plus</td><td>
+			  alhamdulillah plus</td><td>
+			  2022-06-01</td><td>
+			  2022-05-15</td><td>
+			  55555.00</td><td>
+			  0.00</td><td>
+			  0.00</td><td>
+			   0.00</td><td>
+			    55555.00</td><td>
+			    1970-01-01</td><td>
+			    
+			  2022-05-29 17:26:03</td></tr><tr><td>2022-05-29</td>
+		<td>19</td>
+			  <td>Attestation d?finitive</td><td>
+			  ahmed</td><td>
+			  ahmed</td><td>
+			  ahmed</td><td>
+			  ahmed</td><td>
+			  ahmed</td><td>
+			  2022-05-24</td><td>
+			  2022-06-05</td><td>
+			  43.00</td><td>
+			  0.00</td><td>
+			  0.00</td><td>
+			   0.00</td><td>
+			    43.00</td><td>
+			    </td><td>
+			    
+			  2022-05-29 17:26:11</td></tr><tr><td>2022-05-29</td>
+		<td>20</td>
+			  <td>Attestation définitive</td><td>
+			  simon</td><td>
+			  simon</td><td>
+			  simon</td><td>
+			  simon</td><td>
+			  simon</td><td>
+			  2022-05-30</td><td>
+			  2022-05-26</td><td>
+			  123.00</td><td>
+			  0.00</td><td>
+			  0.00</td><td>
+			   0.00</td><td>
+			    123.00</td><td>
+			    </td><td>
+			    
+			  2022-05-29 17:29:29</td></tr><tr><td>2022-05-29</td>
+		<td>24</td>
+			  <td>Attestation définitive</td><td>
+			  jhon3</td><td>
+			  jhon3</td><td>
+			  jhon3</td><td>
+			  jhon3</td><td>
+			  jhon3</td><td>
+			  2022-05-24</td><td>
+			  2022-06-05</td><td>
+			  34.00</td><td>
+			  0.00</td><td>
+			  0.00</td><td>
+			   0.00</td><td>
+			    34.00</td><td>
+			    </td><td>
+			    
+			  2022-05-29 19:08:35</td></tr><tr><td>2022-05-29</td>
+		<td>23</td>
+			  <td>Attestation définitive</td><td>
+			  jhon</td><td>
+			  jhon</td><td>
+			  jhon</td><td>
+			  jhon</td><td>
+			  jhon</td><td>
+			  2022-05-24</td><td>
+			  2022-06-05</td><td>
+			  34.00</td><td>
+			  0.00</td><td>
+			  0.00</td><td>
+			   0.00</td><td>
+			    34.00</td><td>
+			    </td><td>
+			    
+			  2022-05-29 19:08:40</td></tr><tr><td>2022-05-29</td>
+		<td>25</td>
+			  <td>Renouvellement</td><td>
+			  asd</td><td>
+			  asd</td><td>
+			  asd</td><td>
+			  asd</td><td>
+			  asd</td><td>
+			  2022-06-01</td><td>
+			  2022-06-05</td><td>
+			  45.00</td><td>
+			  0.00</td><td>
+			  0.00</td><td>
+			   0.00</td><td>
+			    45.00</td><td>
+			    </td><td>
+			    
+			  2022-05-29 19:11:06</td></tr><tr><td>2022-05-29</td>
+		<td>26</td>
+			  <td>Changement vehicule</td><td>
+			  asd</td><td>
+			  asd</td><td>
+			  asd</td><td>
+			  asd</td><td>
+			  asd</td><td>
+			  2022-06-01</td><td>
+			  2022-06-05</td><td>
+			  67.00</td><td>
+			  0.00</td><td>
+			  0.00</td><td>
+			   0.00</td><td>
+			    67.00</td><td>
+			    </td><td>
+			    
+			  2022-05-29 19:12:29</td></tr><tr><td>2022-05-31</td>
+		<td>29</td>
+			  <td>Affaire nouvelle</td><td>
+			  naoufal</td><td>
+			  naoufal</td><td>
+			  naoufal</td><td>
+			  naoufal</td><td>
+			  naoufal</td><td>
+			  2022-05-26</td><td>
+			  2022-05-25</td><td>
+			  123.00</td><td>
+			  0.00</td><td>
+			  0.00</td><td>
+			   0.00</td><td>
+			    123.00</td><td>
+			    </td><td>
+			    
+			  2022-05-31 20:15:52</td></tr><tr><td>2022-05-31</td>
+		<td>30</td>
+			  <td>Autres</td><td>
+			  sabah</td><td>
+			  sabah</td><td>
+			  sabah</td><td>
+			  sabah</td><td>
+			  sabah</td><td>
+			  2022-05-26</td><td>
+			  2022-05-27</td><td>
+			  567.00</td><td>
+			  0.00</td><td>
+			  0.00</td><td>
+			   0.00</td><td>
+			    567.00</td><td>
+			    </td><td>
+			    
+			  2022-05-31 20:15:54</td></tr><tr><td>2022-05-31</td>
+		<td>31</td>
+			  <td>Autre provisoire</td><td>
+			  sabah benza</td><td>
+			  sabah benza</td><td>
+			  sabah benza</td><td>
+			  sabah benza</td><td>
+			  sabah benza</td><td>
+			  2022-05-26</td><td>
+			  2022-06-04</td><td>
+			  123.00</td><td>
+			  0.00</td><td>
+			  0.00</td><td>
+			   0.00</td><td>
+			    123.00</td><td>
+			    </td><td>
+			    
+			  2022-05-31 20:20:28</td></tr><tr><td>2022-05-31</td>
+		<td>32</td>
+			  <td>Changement vehicule</td><td>
+			  sabah benza</td><td>
+			  sabah benza</td><td>
+			  sabah benza</td><td>
+			  sabah benza</td><td>
+			  sabah benza</td><td>
+			  2022-05-25</td><td>
+			  2022-06-05</td><td>
+			  123.00</td><td>
+			  0.00</td><td>
+			  0.00</td><td>
+			   0.00</td><td>
+			    123.00</td><td>
+			    </td><td>
+			    
+			  2022-05-31 20:24:35</td></tr><tr><td>2022-05-31</td>
+		<td>34</td>
+			  <td>Duplicata</td><td>
+			  sabah benza</td><td>
+			  sabah benza</td><td>
+			  sabah benza</td><td>
+			  sabah benza</td><td>
+			  sabah benza</td><td>
+			  2022-05-26</td><td>
+			  2022-06-02</td><td>
+			  34.00</td><td>
+			  0.00</td><td>
+			  0.00</td><td>
+			   0.00</td><td>
+			    34.00</td><td>
+			    </td><td>
+			    
+			  2022-05-31 20:45:31</td></tr><tr><td>2022-05-31</td>
+		<td>33</td>
+			  <td>Renouvellement</td><td>
+			  sabah benza</td><td>
+			  sabah benza</td><td>
+			  sabah benza</td><td>
+			  sabah benza</td><td>
+			  sabah benza</td><td>
+			  2022-05-27</td><td>
+			  2022-06-03</td><td>
+			  567.00</td><td>
+			  0.00</td><td>
+			  0.00</td><td>
+			   0.00</td><td>
+			    567.00</td><td>
+			    </td><td>
+			    
+			  2022-05-31 20:45:33</td></tr><tr><td>2022-05-29</td>
+		<td>28</td>
+			  <td>Duplicata</td><td>
+			  simon templar</td><td>
+			  simon templar</td><td>
+			  simon templar</td><td>
+			  simon templar</td><td>
+			  simon templar</td><td>
+			  2022-05-30</td><td>
+			  2022-06-03</td><td>
+			  23.00</td><td>
+			  0.00</td><td>
+			  0.00</td><td>
+			   0.00</td><td>
+			    23.00</td><td>
+			    1970-01-01</td><td>
+			    
+			  2022-05-31 20:46:28</td></tr></table>
