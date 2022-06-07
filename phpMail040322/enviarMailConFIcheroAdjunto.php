@@ -88,12 +88,12 @@ $mail = new PHPMailer(true);
 
 try {
     //Server settings
-    $mail->SMTPDebug = 0;                      //Enable verbose debug output
+    $mail->SMTPDebug = 0;                      //Enable verbose debug output or 2
     $mail->isSMTP();                                            //Send using SMTP
     $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
     $mail->Username   = 'msb.caixa@gmail.com';                     //SMTP username
-    $mail->Password   = '93345900';                               //SMTP password
+    $mail->Password   = 'abxiqabjudlpxcmk';                               //SMTP password
     $mail->SMTPSecure = 'tls';            //Enable implicit TLS encryption
     $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
@@ -123,14 +123,15 @@ try {
     $mail->send();
    // echo 'El Mensage se ha enviado a su destinatario';
     echo '<script> alert("El Mensage se ha enviado a su destinatario");
-             location.href="../index.php"; </script>';
+             location.href="../login con sesiones/paginaMenuAside.php"; </script>';
 
 
 
 } catch (Exception $e) {
-  //  echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
-     echo '<script> alert("Message could not be sent. ");
-             location.href="../index.php"; </script>';
+   // echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+ //   echo $e->getMessage();
+    echo '<script> alert("Message could not be sent. ");
+            location.href="../login con sesiones/paginaMenuAside.php"; </script>';
 }
 
 }

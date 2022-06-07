@@ -75,7 +75,7 @@ public class EnviarEmail extends HttpServlet {
         central = (Central) (request.getSession().getAttribute("central"));
 
         try {
-            central.setEnviarEmail(email, "93345900");
+            central.setEnviarEmail(email, "abxiqabjudlpxcmk");
         } catch (MessagingException ex) {
             error = "error enviar email " + ex.getMessage().getClass() + " " + ex.getMessage();
             System.err.println("error enviar email " + ex.getMessage().getClass() + " " + ex.getMessage());
