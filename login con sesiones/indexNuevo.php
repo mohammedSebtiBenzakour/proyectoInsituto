@@ -529,7 +529,14 @@ data-background-color="f5f5f5"
         <li class="nav-item">
             <a class="nav-link" href="https://developer.mozilla.org/es/docs/Learn/Common_questions" target="_blank">Preguntas frecuentes</a>
         </li>
-    </ul>
+        <!-- <li class="nav-item">
+            <button id="button">Open</button><input id="file-input" type="file" name="name" style="display: none;" />
+        </li> -->
+        <li class="nav-item mt-2">
+         <button onclick="onButtonClicked()">Select images</button>
+         <div id="content" class="mt-2"></div>
+     </li>
+ </ul>
 </div>
 <div class="col-md-4 footer-column">
     <ul class="nav flex-column">
@@ -548,6 +555,12 @@ data-background-color="f5f5f5"
     <li class="nav-item">
         <a class="nav-link" href="comoLlegar.php" target="_blank">Como llegar</a>
     </li>
+    <li class="nav-item">
+        <a class="nav-link" href="../imagenesAlumnos/mohammed foto dni 21 11 2019(1).jpg" download>Descargar fichero información</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="../phpMail040322/ficherosEnviados/" target="_blank" >ir a la carpeta imagenes alumnos</a>
+    </li>
 </ul>
 </div>
 <div class="col-md-4 footer-column">
@@ -556,24 +569,37 @@ data-background-color="f5f5f5"
         <span class="footer-title">Contact & Support</span>
     </li>
     <li class="nav-item">
-        <span class="nav-link"><i class="fas fa-phone"></i>+34 655 173 174</span>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="../simplechat/index.php" target="_blank"><i class="fas fa-comments"></i>Live chat</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="formularioContacto.php"><i class="fas fa-envelope"></i>Contactar</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="feedbackForm.php"><i class="fas fa-star"></i>Give feedback</a>
-    </li>
-    <li class="nav-item">
-        <button  onclick="sendEmailDefault()"><i class="fas fa-plane-departure"></i>Enviar email</button>
-    </li>
-    <li class="nav-item">
-       <a class="nav-link" href="../phpMail040322/enviarEmail.php"><i class="fas fa-envelope"></i>Enviar Sugerencias </a>
-   </li>
-</ul>
+        <span class="nav-link"><i class="fas fa-phone"></i><a href="https://wa.me/+34655173174" target="_blank">+34 655 173 174</span>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../simplechat/index.php" target="_blank"><i class="fas fa-comments"></i>Live chat</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="formularioContacto.php"><i class="fas fa-envelope"></i>Contactar</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="feedbackForm.php"><i class="fas fa-star"></i>Give feedback</a>
+        </li>
+        <li class="nav-item">
+            <button  onclick="sendEmailDefault()"><i class="fas fa-plane-departure"></i>Enviar email</button>
+        </li>
+        <li class="nav-item">
+           <a class="nav-link" href="../phpMail040322/enviarEmail.php"><i class="fas fa-envelope"></i>Enviar Sugerencias </a>
+       </li>
+       <li class="nav-item mb-3">
+           <button onclick="promptFilename()">Mostrar rutas de ficheros</button>
+           <br><span class="elprompt" style="color: yellow;"></span>
+       </li>
+       <li class="nav-item">
+           <input type="file" id="i_file" value=""> 
+           <input type="button" id="i_submit" value="Submit" class="mt-2">
+           <br>
+           <img src="" width="200" style="display:none;" />
+           <br>
+           <div id="disp_tmp_path"></div>
+       </li>
+
+   </ul>
 </div>
 </div>
 
@@ -656,6 +682,75 @@ function aceptarCookies() {
 $(document).ready(function () {
   compruebaAceptaCookies();
 });
+</script>
+<script type="text/javascript">
+    $('#button').on('click', function() {
+        $('#file-input').trigger('click');
+    });
+</script>
+<script type="text/javascript">
+    // Content wrapper element
+    let contentElement = document.getElementById("content");
+
+// Button callback
+async function onButtonClicked(){
+    let files = await selectFile("image/*", true);
+    contentElement.innerHTML = files.map(file => `<img src="${URL.createObjectURL(file)}" style="width: 100px; height: 100px;" class="m-2">`).join('');
+}
+
+// ---- function definition ----
+function selectFile (contentType, multiple){
+    return new Promise(resolve => {
+        let input = document.createElement('input');
+        input.type = 'file';
+        input.multiple = multiple;
+        input.accept = contentType;
+
+        input.onchange = _ => {
+            let files = Array.from(input.files);
+            if (multiple)
+                resolve(files);
+            else
+                resolve(files[0]);
+        };
+
+        input.click();
+    });
+}
+</script>
+<script type="text/javascript">
+    function promptFile(contentType, multiple) {
+      var input = document.createElement("input");
+      input.type = "file";
+      input.multiple = multiple;
+      input.accept = contentType;
+      return new Promise(function(resolve) {
+        document.activeElement.onfocus = function() {
+          document.activeElement.onfocus = null;
+          setTimeout(resolve, 500);
+      };
+      input.onchange = function() {
+          var files = Array.from(input.files);
+          if (multiple)
+            return resolve(files);
+        resolve(files[0]);
+    };
+    input.click();
+});
+  }
+  function promptFilename() {
+      promptFile().then(function(file) {
+        document.querySelector(".elprompt").innerText = file && file.name || "no file selected";
+    });
+  }
+</script>
+<script type="text/javascript">
+    $('#i_file').change( function(event) {
+        var tmppath = URL.createObjectURL(event.target.files[0]);
+        $("img").fadeIn("fast").attr('src',URL.createObjectURL(event.target.files[0]));
+
+        $("#disp_tmp_path").html("Temporary Path(Copy it and try pasting it in browser address bar) --> <strong>["+tmppath+"]</strong>");
+    });
 </script>
 </body>
 </html>
