@@ -19,9 +19,10 @@ public class Conexion {
         //  String sqlConeccion = "jdbc:mysql://mysql_db:3306/instituto?serverTimezone=UTC&usessl=false&allowPublicKeyRetrieval=true&enabledTLSProtocols=TLSv1.2";
         //   String sqlConeccion = System.getenv("dbConnectionUrl");
 //        String sqlConeccion = "jdbc:mysql://node34261-env-1741735.es-1.axarnet.cloud/instituto?serverTimezone=UTC&usessl=false&allowPublicKeyRetrieval=true&enabledTLSProtocols=TLSv1.2";
+//        String sqlConeccion = "jdbc:mysql://node34294-env-3793929.es-1.axarnet.cloud/instituto?serverTimezone=UTC&usessl=false&allowPublicKeyRetrieval=true&enabledTLSProtocols=TLSv1.2";
 //
 //        String usuarioBD = "root";
-//        String passBD = "DevRctEJ8t";
+//        String passBD = "eOSliUClrw";
 
         String usuarioBD = "instituto";
         String passBD = "instituto";
