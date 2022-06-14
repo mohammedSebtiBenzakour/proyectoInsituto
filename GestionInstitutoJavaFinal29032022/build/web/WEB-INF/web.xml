@@ -198,6 +198,9 @@
         <multipart-config>
             <max-file-size>10000000</max-file-size>
             <max-request-size>10000000</max-request-size>
+            <location>
+                /
+            </location>
         </multipart-config>
         <init-param>
             <param-name>longitudMaxima</param-name>

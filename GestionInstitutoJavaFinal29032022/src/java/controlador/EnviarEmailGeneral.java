@@ -65,7 +65,7 @@ public class EnviarEmailGeneral extends HttpServlet {
 //        pass = "93345900";
         host = "smtp.office365.com";
         port = "587";
-        user = "msb.iescamas@outlook.com";
+        user = "filip.morris.camas@outlook.es";
         pass = "Msb.93345900";
     }
 
